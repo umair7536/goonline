@@ -44,7 +44,6 @@ a {
   text-transform: initial;
   padding: 0;
   text-decoration: none;
-  line-height: 1.5 !important;
 }
 .header-container {
   width: 100% !important;
@@ -53,8 +52,9 @@ a {
   overflow: hidden;
   top: 0;
   left: 0;
-  background: #000;
-  z-index: 5;
+  background: transparent;
+    z-index: 5;
+    position: absolute;
 }
 .header .navbar {
   padding: 15px 0 !important;
@@ -86,7 +86,7 @@ a {
 }
 a.nav-link.bordered-text.color-cta {
   background: #fff;
-  color: #66b6f8 !important;
+  color: #000 !important;
 }
 .header .navbar-expand-sm .navbar-nav .nav-link:hover {
   border-bottom: 1px solid;
@@ -300,6 +300,10 @@ h1.footer-right-side-title {
 .footer-menu .column-right {
   width: 100%;
   max-width: 45% !important;
+  background-position: 100% 0;
+  background-image: url(../images/footer-bg-image.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .row.footer-menu {
   margin: 0;
@@ -379,4 +383,103 @@ a.footer-links-below-item {
 a.footer-links-below-item:hover{
   opacity: 1;
   color: #fff;
+}
+/* Banner */
+.banner-outer{
+background: transparent;
+position: relative;
+}
+.banner-txt {
+  width: 100%;
+  max-width: 55%;
+  padding: 140px 0 50px 40px;
+  position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.banner-txt h1 {
+  font-size: 75px;
+  color: #fff;
+  font-family: 'Space Grotesk';
+  letter-spacing: -0.06em;
+  line-height: 80px;
+  font-weight: 400;
+}
+.banner-txt h2 {
+  color: hsla(0,0%,100%,.5);
+  font-size: 75px;
+  font-weight: 100;
+  font-style: italic;
+  font-family: 'ui-monospace';
+  line-height: 80px;
+  letter-spacing: -.01em;
+}
+.banner-txt p {
+  font-size: 23px;
+  line-height: 30px;
+  font-family: 'Space Grotesk';
+  color: #fff;
+  letter-spacing: -.02em;
+  padding: 60px 155px 30px 0;
+}
+.banner-txt .banner-btns p {
+  padding: 0 0 0 30px;
+  margin: 0;
+}
+.banner-btns a.btn {
+  font-size: 17px;
+  line-height: 25px !important;
+  background-color: #d6bdb7;
+  color: #000;
+  cursor: pointer;
+  -moz-transition: background-color .2s;
+  transition: background-color .2s;
+  text-decoration: none;
+  border-radius: 2px;
+  font-family: 'Space Grotesk';
+  font-weight: 700;
+  padding: 15px 25px;
+}
+.banner-btns a.btn:hover {
+  background-color: #d3d3d3;
+}
+.banner-btns {
+  display: flex;
+  align-items: center;
+}
+.banner-btns p span {
+  font-size: 14px;
+  line-height: 20px;
+  color: hsla(0,0%,100%,.6);
+  font-family: 'Source-Sans-Pro-Normal';
+  float: left;
+  width: 100%;
+  max-width: 60%;
+}
+.banner-slider-sec .card-block a {
+  display: flex;
+  flex-direction: column;
+}
+.slider-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider-row-single .card-block {
+  filter: blur(10px) contrast(120%) brightness(75%);
+  -webkit-filter: blur(10px) contrast(120%) brightness(75%);
+}
+.slider-row-single img.card-img {
+  height: 700px;
+  object-fit: cover;
+}
+.slick-center {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  transform: scale(1.25);
+  margin-top: -16px;
+}
+.slider-row .slick-list {
+padding:45px 60px !important;
 }
