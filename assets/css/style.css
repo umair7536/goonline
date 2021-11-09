@@ -83,6 +83,7 @@ a {
   margin: 0 25px;
   padding: 0;
   border-bottom: 1px solid transparent;
+  text-transform: capitalize;
 }
 a.nav-link.bordered-text.color-cta {
   background: #fff;
@@ -440,6 +441,7 @@ position: relative;
   font-family: 'Space Grotesk';
   font-weight: 700;
   padding: 15px 25px;
+  text-transform: capitalize;
 }
 .banner-btns a.btn:hover {
   background-color: #d3d3d3;
@@ -477,9 +479,20 @@ position: relative;
 .slick-center {
   -webkit-transform: scale(1.25);
   -moz-transform: scale(1.25);
-  transform: scale(1.25);
-  margin-top: -16px;
+  transform: scale(1.5);
+  margin-top: -63px;
+  background: transparent;
+}
+.card-img, .card-img-bottom {
+  border: none !important;
+  border-radius: 0 !important;
 }
 .slider-row .slick-list {
-padding:45px 60px !important;
+padding:85px 60px 20px !important;
+}
+.slider-row{
+  margin-top: -107px;
+}
+.banner-slider-sec img.logo-img{
+  background-color: #383934;
 }

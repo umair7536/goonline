@@ -13,10 +13,10 @@ $(document).ready(function () {
             $(".bordered-text").removeClass("color-cta");
             }
         });
-        $('body').css('display','none');
-        setTimeout(function() { 
-        $('body').css('display','block');
-        }, 1000);
+        // $('body').css('display','none');
+        // setTimeout(function() { 
+        // $('body').css('display','block');
+        // }, 1000);
         var theToggle = document.getElementById("toggle");
         // hasClass
         function hasClass(elem, className) {
@@ -70,9 +70,10 @@ $(document).ready(function () {
             asNavFor: '.slider-row-single',
             dots: true,
             centerMode: true,
-            centerPadding: '60px',
+            centerPadding: '20px',
             focusOnSelect: true
           });
+          
 });
 
       
