@@ -57,25 +57,54 @@ $(document).ready(function () {
             return false;
         };
 
-        $('.slider-row-single').slick({
+        $('.slider-x').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
+            speed:2300,
             arrows: false,
+            draggable: false,
+            accessibility: false,
+            dots: false,
+            focusOnSelect: false,
             fade: true,
-            asNavFor: '.slider-row'
+            asNavFor: '.slider-z'
           });
-          $('.slider-row').slick({
+          $('.slider-y').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            asNavFor: '.slider-z',
+            speed:500,
+            fade: true,
+            dots: false,
+            swipeToSlide:false,
+            draggable: false,
+            arrows: false,
+            accessibility: true,
+            lazyLoad: 'ondemand',
+            centerMode: false
+          });
+          $('.slider-zx').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            fade: true,
+            dots: false,
+            arrows: false
+          });
+          $('.slider-z').slick({
             slidesToShow: 6,
             slidesToScroll: 1,
-            asNavFor: '.slider-row-single',
-            dots: true,
+            asNavFor: '.slider-x,.slider-y,.slider-zx',
+            speed:1000,
+            dots: false,
+            arrows: false,
+            accessibility: true,
             centerMode: true,
-            centerPadding: '20px',
-            focusOnSelect: true
+            focusOnSelect: true,
+            lazyLoad: 'ondemand',
+            centerPadding: '20px'
           });
-          
+
+
 });
 
       
-      
-
