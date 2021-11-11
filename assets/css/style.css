@@ -387,7 +387,7 @@ a.footer-links-below-item:hover{
 }
 /* Banner */
 .banner-outer{
-background: transparent;
+background: #f2f0ec;
 position: relative;
 }
 .banner-txt {
@@ -431,8 +431,10 @@ position: relative;
 .banner-btns a.btn {
   font-size: 17px;
   line-height: 25px !important;
-  background-color: #F3D8AA;
-  color: #000;
+  background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+  color: #fff;
   cursor: pointer;
   -moz-transition: background-color .2s;
   transition: background-color .2s;
@@ -444,7 +446,7 @@ position: relative;
   text-transform: capitalize;
 }
 .banner-btns a.btn:hover {
-  background-color: #d3d3d3;
+  background-color: #000;
 }
 .banner-btns {
   display: flex;
@@ -510,7 +512,7 @@ padding:85px 60px 0px !important;
 }
 .slider-y {
   position: absolute !important;
-  top: 30%;
+  top: 31%;
   left: 50%;
   width: 100% !important;
   max-width: 30% !important;
@@ -529,9 +531,9 @@ padding:85px 60px 0px !important;
 }
 .story-section-pointer {
   position: absolute;
-    top: 30%;
+    top: 31%;
     left: 47%;
-    height: 18vw;
+    height: 20vw;
     padding: 25px 0 2vw 20px;
     width: 30px;
     display: block;
@@ -549,7 +551,7 @@ padding:85px 60px 0px !important;
   border-bottom: none;
 }
 .story-section-circle {
-  top: 86.8%;
+  top: 89.8%;
   display: block;
   overflow: hidden;
   position: absolute;
@@ -684,4 +686,145 @@ background-size: 40px 42px;
 }
 .slider-x .card-block.slick-slide[data-slick-index="7"] {
   background: #8D7C6F;
+}
+/* How it works */
+.wrapper{
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.how-it-works-outer {
+  background: #f2f0ec;
+  padding: 30px 20px 70px;
+}
+.how-it-works-outer p {
+  text-transform: uppercase;
+  font-family: 'Open Sans Regular';
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(0,0,0,.3);
+  letter-spacing: .1em;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.how-it-works-outer h1 {
+  font-size: 60px;
+    line-height: 70px;
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    color: #000;
+    letter-spacing: -.03em;
+    padding-bottom: 70px;
+  text-align: center;
+  margin: 0;
+}
+.how-it-works-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 75px;
+}
+.how-it-works-row .box span {
+  font-family: 'Space Grotesk';
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  margin-bottom: 5px;
+  color: #000;
+}
+.how-it-works-row .box h2 {
+  font-family: 'Open Sans Regular';
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 34px;
+  letter-spacing: -.04em;
+  padding: 5px 0 14px;
+  margin: 0;
+}
+.how-it-works-row .box p {
+  font-family: 'Space Grotesk';
+  font-weight: 400;
+  text-transform: none;
+  text-align: left;
+  font-size: 15px;
+  line-height: 20px;
+  color: #525252;
+  letter-spacing: -.01em;
+}
+.how-it-works-row .box {
+  width: 100%;
+  max-width: 28%;
+  margin: 0 3%;
+  padding: 0 0 35px;
+}
+/* Lets start */
+.lets-start-section-outer {
+  background: #f8f8f8;
+}
+.lets-start-section-outer .text {
+  padding: 80px 75px;
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lets-start-section-outer .text h1 {
+  font-size: 70px;
+  line-height: 75px;
+  margin-bottom: 0;
+  font-family: 'Space Grotesk';
+  font-weight: 500;
+  color: #000;
+  letter-spacing: -.04em;
+  background-repeat: no-repeat;
+    background-position: 76% 89%;
+    background-size: 40px 40px;
+    background-image: url(../images/end-arrow-right.png);
+}
+.lets-start-btns {
+  width: 100%;
+  max-width: 50%;
+  padding: 0 0 0 240px;
+  text-align: right;
+}
+.lets-start-section-outer .lets-start-btns p {
+  font-family: 'Space Grotesk';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 15px;
+  color: #000;
+}
+.lets-start-btns a.btn {
+  font-size: 17px;
+  line-height: 25px !important;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: #000;
+  cursor: pointer;
+  -moz-transition: background-color .2s;
+  transition: background-color .2s;
+  text-decoration: none;
+  border-radius: 2px;
+  font-family: 'Space Grotesk';
+  font-weight: 700;
+  padding: 15px 25px;
+  border-radius: 4px;
+}
+* {
+  box-sizing: border-box;
+}
+.slider-experts.slick-initialized .slick-slide {
+  display: flex;
+  justify-content: flex-end;
+}
+.slider-experts a img.card-img {
+  padding: 0 140px;
+  width: 100%;
+  max-width: 88%;
+  margin: 0 auto;
+  height: 420px;
+  object-fit: none;
 }

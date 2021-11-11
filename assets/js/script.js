@@ -95,6 +95,8 @@ $(document).ready(function () {
             slidesToScroll: 1,
             asNavFor: '.slider-x,.slider-y,.slider-zx',
             speed:1000,
+            autoplay:true,
+            autoplaySpeed:3000,
             dots: false,
             arrows: false,
             accessibility: true,
@@ -104,6 +106,22 @@ $(document).ready(function () {
             centerPadding: '20px'
           });
 
+
+          $('.slider-experts').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            speed:1000,
+            autoplay:false,
+            autoplaySpeed:3000,
+            dots: false,
+            arrows: false,
+            fade:true,
+            accessibility: true,
+            centerMode: true,
+            focusOnSelect: true,
+            lazyLoad: 'ondemand',
+            centerPadding: '20px'
+          });
 
 });
 
