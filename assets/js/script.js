@@ -111,18 +111,34 @@ $(document).ready(function () {
             slidesToShow: 1,
             slidesToScroll: 1,
             speed:1000,
-            autoplay:false,
-            autoplaySpeed:3000,
+            autoplay:true,
+            autoplaySpeed:2000,
             dots: false,
             arrows: false,
             fade:true,
             accessibility: true,
-            centerMode: true,
+            centerMode: false,
             focusOnSelect: true,
             lazyLoad: 'ondemand',
             centerPadding: '20px'
           });
 
+
+        //   Tabs
+        $('#tabs-nav li:first-child').addClass('active');
+        $('.tab-content').hide();
+        $('.tab-content:first').show();
+
+        // Click function
+        $('#tabs-nav li').click(function(){
+        $('#tabs-nav li').removeClass('active');
+        $(this).addClass('active');
+        $('.tab-content').hide();
+
+        var activeTab = $(this).find('a').attr('href');
+        $(activeTab).fadeIn();
+        return false;
+        });
 });
 
       
