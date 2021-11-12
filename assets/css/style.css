@@ -837,10 +837,6 @@ background-size: 40px 42px;
   max-width: 23%;
   margin: 0 180px 0 auto;
 }
-/* .slider-experts.slick-initialized .slick-slide {
-  display: flex;
-  justify-content: flex-end;
-}*/
 .slider-experts a img.card-img {
   height: 400px;
   object-fit: none;
