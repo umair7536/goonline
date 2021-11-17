@@ -139,6 +139,22 @@ $(document).ready(function () {
         $(activeTab).fadeIn();
         return false;
         });
+
+        $('#tabs-nav-1 li:first-child').addClass('active');
+        $('.tab-content-1').hide();
+        $('.tab-content-1:first').show();
+
+        // Click function
+        $('#tabs-nav-1 li').click(function(){
+        $('#tabs-nav-1 li').removeClass('active');
+        $(this).addClass('active');
+        $('.tab-content-1').hide();
+
+        var activeTab = $(this).find('a').attr('href');
+        $(activeTab).fadeIn();
+        return false;
+        });
+        
 });
 
       
