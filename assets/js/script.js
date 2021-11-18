@@ -124,6 +124,43 @@ $(document).ready(function () {
           });
 
 
+          $('.review-x-slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            speed:1000,
+            autoplay:false,
+            autoplaySpeed:2000,
+            dots: false,
+            arrows: false,
+            fade:true,
+            swipeToSlide:false,
+            draggable: false,
+            accessibility: true,
+            centerMode: false,
+            focusOnSelect: true,
+            lazyLoad: 'ondemand',
+            centerPadding: '20px',
+            asNavFor: '.review-y-slider'
+          });
+
+          $('.review-y-slider').slick({
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            asNavFor: '.review-x-slider',
+            speed:1000,
+            autoplay:true,
+            autoplaySpeed:2000,
+            dots: false,
+            arrows: false,
+            swipeToSlide:false,
+            draggable: false,
+            accessibility: true,
+            centerMode: false,
+            focusOnSelect: true,
+            lazyLoad: 'ondemand',
+            centerPadding: '50px'
+          });
+
         //   Tabs
         $('#tabs-nav li:first-child').addClass('active');
         $('.tab-content').hide();

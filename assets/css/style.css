@@ -763,6 +763,7 @@ background-size: 40px 42px;
 /* Lets start */
 .lets-start-section-outer {
   background: #f8f8f8;
+  margin-top: 88px;
 }
 .lets-start-section-outer .text {
   padding: 80px 75px;
@@ -1247,4 +1248,166 @@ ul#tabs-nav-1 li:hover {
 .tab-content-1 .right-box p img {
   width: 100%;
   max-width: 8%;
+}
+/* Review section */
+.review-x-slider .card-block.slick-slide[data-slick-index="0"] {
+  background: #889ea2;
+}
+.review-x-slider .card-block.slick-slide[data-slick-index="1"] {
+  background: #b2998c;
+}
+.review-x-slider .card-block.slick-slide[data-slick-index="2"] {
+  background: #bcae9f;
+}
+.review-x-slider .card-block.slick-slide[data-slick-index="3"] {
+  background: #b0b7ad;
+}
+.review-x-slider .card-block.slick-slide[data-slick-index="4"] {
+  background: #7fa8a8;
+}
+.review-x-slider .card-block.slick-slide[data-slick-index="5"] {
+  background: #889ea2;
+}
+.review-x-slider .card-block.slick-slide[data-slick-index="6"] {
+  background: #b2998c;
+}
+.review-x-slider .card-block.slick-slide[data-slick-index="7"] {
+  background: #8D7C6F;
+}
+.review-x-slider img.top-img {
+  position: absolute;
+  width: 100%;
+  max-width: 10%;
+  top: 3%;
+  left: 4%;
+  right: 0;
+}
+.review-y-slider .card-block{
+  position: relative;
+}
+.review-y-slider .card-block.slick-slide.slick-current p,
+.review-y-slider .card-block.slick-slide.slick-current h3,
+.review-y-slider .card-block.slick-slide.slick-current h4 {
+  color: #fff;
+}
+/* .review-y-slider .card-block.slick-slide.slick-current img.card-img.brand-logo {
+  filter: invert(100%) sepia(13%) saturate(7500%) hue-rotate(196deg) brightness(112%) contrast(111%);
+} */
+/* .review-y-slider .card-block.slick-slide.slick-current{
+opacity: 1;
+-webkit-filter: blur(40px);
+filter: blur(40px);
+} */
+.review-x-slider a.js-fillcolor {
+  padding: 60px 50px;
+}
+.review-section-outer {
+  position: relative;
+}
+.review-section-outer .header-txt {
+  position: absolute;
+  top: 7%;
+  z-index: 9;
+  right: 8%;
+}
+.review-y-slider.review-y-slider-row.slick-initialized.slick-slider {
+  margin-top: -376px;
+}
+.review-y-slider .slick-list{
+ margin-left: 310px !important;
+ padding:0 8% 0 0 !important;
+}
+.review-y-slider .card-block {
+ width: 100%;
+ max-width: 20%;
+}
+.review-section-outer .header-txt .arrow {
+  background-repeat: no-repeat;
+  background-image: url(../images/arrow-big-up.png);
+  width: 40px;
+  height: 42px;
+  transform: rotate(180deg);
+  margin: 12px 12px;
+  float: left;
+}
+.review-section-outer .header-txt h1 {
+  font-size: 66px;
+  line-height: 85px;
+  font-family: 'Space Grotesk';
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: -.03em;
+  text-align: left;
+  margin: 0;
+}
+.review-section-outer .header-txt h2 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 100;
+  font-style: italic;
+  font-family: 'ui-monospace';
+  line-height: 65px;
+  letter-spacing: -.01em;
+  float: left;
+}
+.review-y-slider .txt-with-img {
+  display: flex;
+  align-items: center;
+  padding-left: 45px;
+}
+.review-y-slider img.card-img.brand-logo {
+  width: 100%;
+  max-width: 70%;
+  padding-left: 45px;
+  filter: invert(52%) sepia(37%) saturate(3228%) hue-rotate(260deg) brightness(9%) contrast(85%);
+}
+.review-y-slider .txt-with-img img {
+  margin-right: 20px;
+  width: 100%;
+  max-width: 15%;
+  padding: 0;
+}
+.review-y-slider .card-block.slick-slide.slick-current p{
+  background-image: url('../images/quoted1.png');
+}
+.review-y-slider p {
+  margin-bottom: 32px;
+  width: 100%;
+  padding: 0 45px;
+  font-family: 'Space Grotesk';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: -.01em;
+  line-height: 25px;
+  color: #000;
+  background-size: 30px 30px;
+  background-image: url('../images/quoted.png');
+  -moz-transition: color .2s;
+  transition: color .2s;
+  background-repeat: no-repeat;
+}
+.review-y-slider .txt-with-img h3 {
+  font-size: 13px;
+  line-height: 20px;
+  margin: 5px 0 0 0;
+  font-family: 'Space Grotesk';
+  font-weight: 900;
+  color: #000;
+}
+.review-y-slider .txt-with-img h4 {
+  font-size: 13px;
+  line-height: 20px;
+  margin: 0;
+  font-family: 'Space Grotesk';
+  font-weight: 400;
+  color: #000;
+}
+/* Pricing Page How it works */
+.pricingPage-how-it-works-outer {
+  background: #eceff2;
+  padding: 70px 20px;
+}
+.pricingPage-projects-sizes-section-outer .tab-content .box {
+  background: #656788;
 }
