@@ -69,6 +69,7 @@ $(document).ready(function () {
             fade: true,
             asNavFor: '.slider-z'
           });
+          
           $('.slider-y').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -148,7 +149,7 @@ $(document).ready(function () {
             slidesToScroll: 1,
             asNavFor: '.review-x-slider',
             speed:1000,
-            autoplay:true,
+            autoplay:false,
             autoplaySpeed:2000,
             dots: false,
             arrows: false,
@@ -161,6 +162,7 @@ $(document).ready(function () {
             centerPadding: '50px'
           });
 
+         
         //   Tabs
         $('#tabs-nav li:first-child').addClass('active');
         $('.tab-content').hide();
@@ -191,7 +193,7 @@ $(document).ready(function () {
         $(activeTab).fadeIn();
         return false;
         });
-        
+
 });
 
       
