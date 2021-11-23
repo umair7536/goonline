@@ -1585,10 +1585,21 @@ filter: blur(40px);
 /* Pricing-banner */
 .pricing-banner-row {
   background-color: #000221;
-  padding: 120px 60px 60px;
-  display: flex;
-  justify-content: center;
-  position: relative;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+.pricing-banner-row .banner-txt {
+  width: 100%;
+  max-width: 55%;
+  padding: 110px 0 50px 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 .pricing-banner {
   background: #eceff2;
@@ -1804,4 +1815,157 @@ filter: blur(40px);
 }
 .shopify-brands-logo-outer .logo-imgs img {
   padding: 20px 25px;
+}
+.pricing-banner-row .slider-xx.banner-imgs {
+  width: 100%;
+    max-width: 30%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 140px 0 50px 40px;
+    margin: 0 180px 0 auto;
+}
+.slider-xx.banner-imgs .card-block .txt {
+  width: 100%;
+  max-width: 90%;
+  padding: 10px 22px 35px;
+  position: absolute;
+  bottom: 0;
+}
+.slider-xx.banner-imgs .card-block h2 {
+  font-family: "Open Sans Regular";
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 34px;
+  letter-spacing: -0.04em;
+  padding: 12px 0 7px;
+  margin: 0;
+  color: #fff;
+}
+.slider-xx.banner-imgs .card-block p {
+  color: #fff;
+  font-family: "Space Grotesk";
+  font-weight: 700;
+  text-transform: none;
+  text-align: left;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+.slider-xx.banner-imgs .card-block .left-border {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 30px;
+  border: 2px solid #fff;
+  border-right: none;
+  opacity: .6;
+}
+.slider-xx.banner-imgs .card-block .right-border {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 30px;
+  border: 2px solid #fff;
+  border-left: none;
+  opacity: .6;
+}
+.slider-xx.banner-imgs .card-block a {
+  padding: 15px 15px 13px;
+}
+.pricing-banner-outer .slider-yy .card-block a   {
+  filter: blur(10px) contrast(120%) brightness(75%);
+  height: 100%;
+  width: 97%;
+}
+.pricing-banner-outer .slider-yy .slick-track,
+.pricing-banner-outer .slider-yy .slick-list {
+  height: 100%;
+}
+.pricing-banner-outer .slider-yy .card-block a img   {
+  height: 93%;
+}
+.pricing-banner-outer .slider-yy {
+  background-color: #150603;
+  height: 700px;
+}
+.pricing-banner-outer .banner-btns a.btn {
+  background-color: #efe8e0;
+  color: #000;
+}
+/* Heavy-Lifting */
+.heavy-lifting-outer{
+  background-color: #000;
+  padding: 50px;
+}
+.heavy-lifting-row{
+  display: flex;
+}
+.heavy-lifting-row .left-sec{
+  width: 100%;
+  max-width: 60%;
+}
+.heavy-lifting-row .right-sec{
+  width: 100%;
+  max-width: 40%;
+}
+.heavy-lifting-row .left-sec p {
+  text-transform: uppercase;
+  font-family: "Open Sans Regular";
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: hsla(0, 0%, 100%, 0.4);
+  letter-spacing: 0.1em;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.heavy-lifting-row .left-sec h1 {
+  color: #fff;
+    font-size: 70px;
+    font-weight: 100;
+    font-style: italic;
+    font-family: "ui-monospace";
+    line-height: 65px;
+    letter-spacing: -0.01em;
+}
+.heavy-lifting-row .left-sec h1 span {
+  font-size: 70px;
+  color: #fff;
+  font-family: "Space Grotesk";
+  letter-spacing: -0.06em;
+  line-height: 55px;
+  font-style: normal;
+  font-weight: 400;
+}
+.heavy-lifting-row .right-sec p {
+  font-family: "Space Grotesk";
+  font-size: 22px;
+  color: #fff;
+  font-weight: 400;
+}
+.heavy-lifting-row .right-sec p {
+  display: inline-block;
+  font-family: "Space Grotesk";
+  font-size: 22px;
+  color: #fff;
+  font-weight: 400;
+}
+.heavy-lifting-row .right-sec .arrow {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-image: url('../images/arrow-big-up.png');
+  background-size: 35px 35px;
+  margin-bottom: 30px;
+  width: 35px;
+  height: 35px;
+  transform: rotate(180deg);
 }
