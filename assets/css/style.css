@@ -1587,7 +1587,7 @@ filter: blur(40px);
   background-color: #000221;
     display: flex;
     justify-content: center;
-    position: absolute;
+    position: relative;
     width: 100%;
     top: 0;
     z-index: 1;
@@ -1652,6 +1652,7 @@ filter: blur(40px);
 .pricing-banner-row .left-side {
   width: 100%;
   max-width: 60%;
+  padding: 90px 0 50px 42px;
 }
 .pricing-banner-row .img {
   position: absolute;
@@ -1668,6 +1669,7 @@ filter: blur(40px);
 .pricing-banner-row .right-side {
   width: 100%;
   max-width: 40%;
+  padding: 90px 50px 42px 0;
 }
 .pricing-hero-story .story-prompt {
   display: block;
