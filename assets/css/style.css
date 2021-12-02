@@ -1576,21 +1576,25 @@ filter: blur(40px);
   max-width: 100%;
 }
 /* Review Slider */
-.pricingPage-review-section-outer .review-x-slider .card-block.slick-slide[data-slick-index="3"] {
+.pricingPage-review-section-outer
+  .review-x-slider
+  .card-block.slick-slide[data-slick-index="3"] {
   background: #ddb473;
 }
-.pricingPage-review-section-outer .review-x-slider .card-block.slick-slide[data-slick-index="4"] {
+.pricingPage-review-section-outer
+  .review-x-slider
+  .card-block.slick-slide[data-slick-index="4"] {
   background: #8b867b;
 }
 /* Pricing-banner */
 .pricing-banner-row {
   background-color: #000221;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 100%;
-    top: 0;
-    z-index: 1;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  top: 0;
+  z-index: 1;
 }
 .pricing-banner-row .banner-txt {
   width: 100%;
@@ -1629,8 +1633,8 @@ filter: blur(40px);
   color: #fff;
   letter-spacing: -0.02em;
   padding: 60px 0px 30px;
-    width: 100%;
-    max-width: 50%;
+  width: 100%;
+  max-width: 50%;
 }
 .pricing-banner-row .left-side a.btn {
   font-size: 17px;
@@ -1647,29 +1651,29 @@ filter: blur(40px);
   padding: 15px 25px;
 }
 .pricing-banner-row .left-side a.btn:hover {
- background-color: #e8e9fa;
+  background-color: #e8e9fa;
 }
 .pricing-banner-row .left-side {
   width: 100%;
   max-width: 60%;
-  padding: 90px 0 50px 42px;
+  padding: 110px 0 50px 42px;
 }
 .pricing-banner-row .img {
   position: absolute;
   background-image: url(../images/pricing-hero-bg.png);
   background-repeat: no-repeat;
   background-size: 94% 76%;
-    width: 37%;
-    top: 34%;
-    bottom: 0;
-    left: 21%;
-    height: 100%;
+  width: 37%;
+  top: 34%;
+  bottom: 0;
+  left: 21%;
+  height: 100%;
   z-index: 1;
 }
 .pricing-banner-row .right-side {
   width: 100%;
   max-width: 40%;
-  padding: 90px 50px 42px 0;
+  padding: 110px 50px 42px 0;
 }
 .pricing-hero-story .story-prompt {
   display: block;
@@ -1686,16 +1690,16 @@ filter: blur(40px);
   font-style: normal;
   font-size: 20px;
   line-height: 50px;
-  letter-spacing: -.01em;
+  letter-spacing: -0.01em;
   color: #fff;
   background-position: 0;
-  background-image: url('../images/pricing-hero-customer.png');
+  background-image: url("../images/pricing-hero-customer.png");
 }
 .pricing-hero-story-quote {
   border-left: 1px solid #fff;
   padding-right: 65px;
   background-position: 100% 0;
-  background-image: url('../images/pricing-hero-expert.png');
+  background-image: url("../images/pricing-hero-expert.png");
   margin: 10px 0 10px 24px;
 }
 .pricing-hero-story:last-child .pricing-hero-story-quote {
@@ -1707,8 +1711,8 @@ filter: blur(40px);
   box-shadow: 0 2px 20px rgb(0 0 0 / 28%);
   padding: 15px 60px 10px 20px;
   display: flex;
-    align-items: center;
-    justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 .hero-story-row .hero-story-card h3 {
   font-size: 14px;
@@ -1743,15 +1747,15 @@ filter: blur(40px);
   background-position: 86% 20%;
   background-size: 65% 58%;
 }
-.expertPage-how-it-works-outer p:first-child{
-  color: hsla(0,0%,100%,.3);
+.expertPage-how-it-works-outer p:first-child {
+  color: hsla(0, 0%, 100%, 0.3);
 }
-.expertPage-how-it-works-outer .box p{
+.expertPage-how-it-works-outer .box p {
   color: #ccc;
 }
 .expertPage-how-it-works-outer h1,
 .expertPage-how-it-works-outer .box span,
-.expertPage-how-it-works-outer .box h2{
+.expertPage-how-it-works-outer .box h2 {
   color: #fff;
 }
 .expertPage-experts-section-outer .experts-text-section {
@@ -1775,10 +1779,14 @@ filter: blur(40px);
   font-weight: 400;
   font-style: normal;
 }
-.expertPage-review-section-outer .review-x-slider .card-block.slick-slide[data-slick-index="0"]{
+.expertPage-review-section-outer
+  .review-x-slider
+  .card-block.slick-slide[data-slick-index="0"] {
   background: #d8a57f;
 }
-.expertPage-review-section-outer .review-x-slider .card-block.slick-slide[data-slick-index="1"]{
+.expertPage-review-section-outer
+  .review-x-slider
+  .card-block.slick-slide[data-slick-index="1"] {
   background: #afaba5;
 }
 .shopify-brands-logo-outer {
@@ -1820,12 +1828,12 @@ filter: blur(40px);
 }
 .pricing-banner-row .slider-xx.banner-imgs {
   width: 100%;
-    max-width: 30%;
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding: 140px 0 50px 40px;
-    margin: 0 180px 0 auto;
+  max-width: 30%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 140px 0 50px 40px;
+  margin: 0 180px 0 auto;
 }
 .slider-xx.banner-imgs .card-block .txt {
   width: 100%;
@@ -1865,7 +1873,7 @@ filter: blur(40px);
   width: 30px;
   border: 2px solid #fff;
   border-right: none;
-  opacity: .6;
+  opacity: 0.6;
 }
 .slider-xx.banner-imgs .card-block .right-border {
   display: block;
@@ -1877,12 +1885,12 @@ filter: blur(40px);
   width: 30px;
   border: 2px solid #fff;
   border-left: none;
-  opacity: .6;
+  opacity: 0.6;
 }
 .slider-xx.banner-imgs .card-block a {
   padding: 15px 15px 13px;
 }
-.pricing-banner-outer .slider-yy .card-block a   {
+.pricing-banner-outer .slider-yy .card-block a {
   filter: blur(10px) contrast(120%) brightness(75%);
   height: 100%;
   width: 97%;
@@ -1891,7 +1899,7 @@ filter: blur(40px);
 .pricing-banner-outer .slider-yy .slick-list {
   height: 100%;
 }
-.pricing-banner-outer .slider-yy .card-block a img   {
+.pricing-banner-outer .slider-yy .card-block a img {
   height: 93%;
 }
 .pricing-banner-outer .slider-yy {
@@ -1903,20 +1911,23 @@ filter: blur(40px);
   color: #000;
 }
 /* Heavy-Lifting */
-.heavy-lifting-outer{
+.heavy-lifting-outer {
   background-color: #000;
-  padding: 50px;
+  position: relative;
 }
-.heavy-lifting-row{
+.heavy-lifting-row {
   display: flex;
 }
-.heavy-lifting-row .left-sec{
+.heavy-lifting-row .left-sec {
   width: 100%;
   max-width: 60%;
+  z-index: 2;
 }
-.heavy-lifting-row .right-sec{
+.heavy-lifting-row .right-sec {
   width: 100%;
   max-width: 40%;
+  padding: 40px 0 0;
+  z-index: 2;
 }
 .heavy-lifting-row .left-sec p {
   text-transform: uppercase;
@@ -1931,12 +1942,12 @@ filter: blur(40px);
 }
 .heavy-lifting-row .left-sec h1 {
   color: #fff;
-    font-size: 70px;
-    font-weight: 100;
-    font-style: italic;
-    font-family: "ui-monospace";
-    line-height: 65px;
-    letter-spacing: -0.01em;
+  font-size: 70px;
+  font-weight: 100;
+  font-style: italic;
+  font-family: "ui-monospace";
+  line-height: 65px;
+  letter-spacing: -0.01em;
 }
 .heavy-lifting-row .left-sec h1 span {
   font-size: 70px;
@@ -1964,10 +1975,166 @@ filter: blur(40px);
   display: inline-block;
   background-repeat: no-repeat;
   background-position: 0 100%;
-  background-image: url('../images/arrow-big-up.png');
+  background-image: url("../images/arrow-big-up.png");
   background-size: 35px 35px;
   margin-bottom: 30px;
   width: 35px;
   height: 35px;
   transform: rotate(180deg);
+}
+.heavy-lifting-left-slider {
+  padding: 55px 0 40px 20px;
+}
+.heavy-lifting-left-slider .row {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  margin: 0;
+}
+.heavy-lifting-left-slider .row .txt {
+  width: 100%;
+  max-width: 40%;
+}
+.heavy-lifting-left-slider .row .img {
+  width: 100%;
+  max-width: 60%;
+  position: relative;
+}
+.heavy-lifting-left-slider .row .txt h2 {
+  font-family: "Space Grotesk";
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 34px;
+  letter-spacing: -0.04em;
+  padding: 0 0 35px;
+  margin: 0;
+  color: #fff;
+}
+.heavy-lifting-left-slider .row .txt h3 {
+  font-family: "Space Grotesk";
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 34px;
+  letter-spacing: -0.04em;
+  padding: 0 0 5px;
+  margin: 0;
+  color: #fff;
+}
+.heavy-lifting-left-slider .row .txt p {
+  font-family: "Open Sans SemiBold";
+  text-transform: initial;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.04em;
+  padding: 0 0 25px;
+  margin: 0;
+  color: #fff;
+  opacity: 0.8;
+}
+.heavy-lifting-left-slider .row .img a {
+  padding: 15px 80px;
+}
+.heavy-lifting-left-slider .card-block .left-border {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 60px;
+  bottom: 0;
+  width: 30px;
+  border: 2px solid #fff;
+  border-right: none;
+  opacity: 0.6;
+}
+.heavy-lifting-left-slider .card-block .right-border {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 60px;
+  bottom: 0;
+  width: 30px;
+  border: 2px solid #fff;
+  border-left: none;
+  opacity: 0.6;
+}
+.heavy-lifting-right-slider {
+  padding: 15px 0 40px;
+}
+.heavy-lifting-right-slider .tab-txt {
+  font-family: "Space Grotesk";
+  text-transform: initial;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: -0.04em;
+  margin: 0 0 15px;
+  color: #fff;
+  opacity: 0.4;
+  cursor: pointer;
+  width: 100% !important;
+}
+.tab-txt.slick-slide.slick-current.slick-active {
+  opacity: 1;
+}
+.bg-slider .card-block {
+  filter: blur(7px) contrast(120%) brightness(75%);
+  -webkit-filter: blur(7px) contrast(120%) brightness(75%);
+}
+.bg-slider .card-block.slick-slide[data-slick-index="0"] a {
+  background-image: url(../images/expert-1.png);
+}
+.bg-slider .card-block.slick-slide[data-slick-index="1"] a {
+  background-image: url(../images/expert-2.png);
+}
+.bg-slider .card-block.slick-slide[data-slick-index="2"] a {
+  background-image: url(../images/expert-3.png);
+}
+.bg-slider .card-block.slick-slide[data-slick-index="3"] a {
+  background-image: url(../images/expert-4.png);
+}
+.bg-slider .card-block.slick-slide[data-slick-index="4"] a {
+  background-image: url(../images/expert-5.png);
+}
+.bg-slider .card-block.slick-slide[data-slick-index="5"] a {
+  background-image: url(../images/expert-6.png);
+}
+.bg-slider .card-block.slick-slide[data-slick-index="0"] {
+  background: #b58c53;
+}
+.bg-slider .card-block.slick-slide[data-slick-index="1"] {
+  background: #383934;
+}
+.bg-slider .card-block.slick-slide[data-slick-index="2"] {
+  background: #34382b;
+}
+.bg-slider .card-block.slick-slide[data-slick-index="3"] {
+  background: #4b2921;
+}
+.bg-slider .card-block.slick-slide[data-slick-index="4"] {
+  background: #010127;
+}
+.bg-slider .card-block.slick-slide[data-slick-index="5"] {
+  background: #3e3530;
+}
+.bg-slider .card-block.slick-slide a img {
+  display: none;
+}
+.bg-slider .card-block.slick-slide a {
+  background-repeat: no-repeat;
+  background-position: 0;
+  height: 670px;
+  background-size: 45% 100%;
+  z-index: 9999999;
+  width: 100%;
+}
+.heavy-lifting-row {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 60px 50px;
 }

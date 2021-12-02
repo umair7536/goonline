@@ -194,6 +194,54 @@ $(document).ready(function () {
             centerPadding: '350px'
           });
 
+
+          $('.left-slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            speed:1000,
+            autoplay:false,
+            autoplaySpeed:2000,
+            dots: false,
+            arrows: false,
+            vertical: false,
+            fade:true,
+            accessibility: false,
+            asNavFor: '.right-slider,.bg-slider',
+            centerMode: false,
+            focusOnSelect: true,
+            focusOnChange: true,
+            accessibility: false,
+            lazyLoad: 'ondemand',
+            centerPadding: '20px'
+          });
+          $('.right-slider').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay:false,
+            autoplaySpeed:2000,
+            asNavFor: '.left-slider,.bg-slider',
+            vertical: true,
+            swipe:false,
+            verticalSwiping: false,
+            dots: false,
+            arrows: false,
+            accessibility: false,
+            centerMode: false,
+            focusOnChange: true,
+            focusOnSelect: true
+          });
+          $('.bg-slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay:false,
+            autoplaySpeed:2000,
+            swipe:true,
+            dots: false,
+            arrows: false,
+            accessibility: true,
+            centerMode: false
+          });
+
         //   Tabs
         $('#tabs-nav li:first-child').addClass('active');
         $('.tab-content').hide();
