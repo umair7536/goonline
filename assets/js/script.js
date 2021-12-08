@@ -275,7 +275,6 @@ $(document).ready(function () {
 
         $('.nav-link').addClass('current');
         $('.header li a').on('click', function (e) {
-            e.preventDefault();
             $('.header li a.current').removeClass('current');
             $(this).addClass('current');
         });
