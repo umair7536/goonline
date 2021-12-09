@@ -14,7 +14,7 @@
     font-family: 'Space Grotesk';
     src: url('../fonts/space_grotesk/SpaceGrotesk-Medium.eot');
     src: url('../fonts/space_grotesk/SpaceGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/space grotesk/SpaceGrotesk-Medium.woff2') format('woff2'),
+        
         url('../fonts/space_grotesk/SpaceGrotesk-Medium.woff') format('woff'),
         url('../fonts/space_grotesk/SpaceGrotesk-Medium.ttf') format('truetype');
     font-weight: 500;
