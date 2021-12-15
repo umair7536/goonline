@@ -241,6 +241,33 @@ $(document).ready(function () {
             accessibility: true,
             centerMode: false
           });
+          $('.become-ae-slider').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay:false,
+            autoplaySpeed:2000,
+            asNavFor: '.become-aet-slider',
+            dots: false,
+            arrows: false,
+            accessibility: false,
+            centerMode: false,
+            focusOnChange: true,
+            focusOnSelect: true
+          });
+          $('.become-aet-slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay:false,
+            autoplaySpeed:2000,
+            asNavFor: '.become-ae-slider',
+            fade: true,
+            dots: false,
+            arrows: false,
+            accessibility: false,
+            centerMode: false,
+            focusOnChange: true,
+            focusOnSelect: true
+          });
 
         //   Tabs
         $('#tabs-nav li:first-child').addClass('active');
