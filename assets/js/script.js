@@ -300,6 +300,19 @@ $(document).ready(function () {
         return false;
         });
 
+        $('#tabs-expert-1 li:first-child').addClass('active');
+        $('.tab-expert-1').hide();
+        $('.tab-expert-1:first').show();
+        $('#tabs-expert-1 li').click(function(){
+        $('#tabs-expert-1 li').removeClass('active');
+        $(this).addClass('active');
+        $('.tab-expert-1').hide();
+        var activeTab = $(this).find('a').attr('href');
+        $(activeTab).fadeIn();
+        return false;
+        });
+
+
         $('.nav-link').addClass('current');
         $('.header li a').on('click', function (e) {
             $('.header li a.current').removeClass('current');
