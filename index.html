@@ -30,6 +30,36 @@
   </head>
   
   <body>
+    <div class="popup-form">
+      <div class="form-header">
+        <button class="close">close</button>
+        <button class="sign-in">or log in instead</button>
+      </div>
+      <div class="form-body">
+        <h1>Get Started</h1>
+        <p>It only takes a few minutes to kick off your first project. Then we'll match you with a Storetasker Expert.</p>
+        <form>
+        <label for="fname">Your Website</label><br>
+        <input type="email" id="email" name="email" value="" placeholder="example.com"><br>
+        <label for="fname">Tell Us About Your Project</label><br>
+        <textarea name="textarea" rows="5" cols="30" placeholder="Tell us as much as you can about your project. This helps us find the best expert to match you with. Feel free to link to a Google doc, share a screenshot, record a video, etc."></textarea>
+        <div>
+        <input type="file"  id="file" name="file" multiple>
+        <p>use a template</p>
+        </div>
+        </form>
+        <button class="next" type="submit" value="Submit">Next</button>
+      </div>
+      <div class="sign-in-form">
+        <h1>Welcome back</h1>
+        <p>Let's log into your account and get to work.</p>
+        <form>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email" value="" placeholder="Email Address"><br>
+          <button class="next" type="submit" value="Submit">Login</button>
+        </form>
+      </div>
+    </div>
     <div class="main">
       <div class="header-container">
         <header class="header">
@@ -60,7 +90,7 @@
                   <a class="nav-link" href="become-an-expert.html">become an expert</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link bordered-text" href="form.html">start a project</a>
+                  <p class="nav-link bordered-text">start a project</p>
                 </li>
               </ul>
             </div>

@@ -269,6 +269,52 @@ $(document).ready(function () {
             focusOnSelect: true
           });
 
+          $('.expert-photos-slider').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay:false,
+            autoplaySpeed:2000,
+            asNavFor: '.expert-txt-slider',
+            dots: false,
+            arrows: false,
+            lazyLoad: 'ondemand',
+            accessibility: true,
+            centerMode: true,
+            focusOnChange: true,
+            focusOnSelect: true
+          });
+          $('.expert-txt-slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay:false,
+            autoplaySpeed:2000,
+            asNavFor: '.expert-photos-slider',
+            dots: false,
+            arrows: false,
+            lazyLoad: 'ondemand',
+            fade:true,
+            accessibility: true,
+            centerMode: false,
+            focusOnChange: true,
+            focusOnSelect: true
+          });
+
+          $('.bordered-text').on('click', function () {
+            $("body").addClass("modal-opens");
+            $('.popup-form').show();
+          });
+          
+          $('.sign-in').on('click', function () {
+            $(".form-body").addClass("hide");
+            $('.sign-in-form').show();
+          });
+
+          $('.form-header button.close').on('click', function () {
+            $("body").removeClass("modal-opens");
+            $('.popup-form').hide();
+          });
+
+          
         //   Tabs
         $('#tabs-nav li:first-child').addClass('active');
         $('.tab-content').hide();
