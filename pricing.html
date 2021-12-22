@@ -30,6 +30,94 @@
   </head>
  
   <body>
+    <div class="popup-form">
+      <div class="form-header">
+        <button class="close">close</button>
+        <button class="sign-in">or log in instead</button>
+      </div>
+      <div class="form-body">
+        <h1>Get Started</h1>
+        <p>It only takes a few minutes to kick off your first project. Then we'll match you with a Storetasker Expert.</p>
+        <form>
+        <label for="fname">Your Website</label><br>
+        <input type="email" id="email" name="email" value="" placeholder="example.com"><br>
+        <label for="fname">Tell Us About Your Project</label>
+        <p class="see-example-btn">see examples</p>
+        <textarea name="textarea" rows="5" cols="30" placeholder="Tell us as much as you can about your project. This helps us find the best expert to match you with. Feel free to link to a Google doc, share a screenshot, record a video, etc."></textarea>
+        <div>
+        <input type="file"  id="file" name="file" multiple>
+        <p>use a template</p>
+        </div>
+        </form>
+        <button class="next" type="submit" value="Submit">Next</button>
+      </div>
+      <div class="sign-in-form">
+        <h1>Welcome back</h1>
+        <p>Let's log into your account and get to work.</p>
+        <form>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email" value="" placeholder="Email Address"><br>
+          <button class="next" type="submit" value="Submit">Login</button>
+        </form>
+      </div>
+    </div>
+    <div class="see-example">
+      <button class="back-btn">back</button>
+      <h1>Example Projects</h1>
+      <p>The best project descriptions include the following details:</p>
+      <ul>
+        <li>A quick introduction to your business and you</li>
+        <li>A detailed description of what you need help with</li>
+        <li>Context or the goal you're trying to achieve</li>
+      </ul>
+      <div class="txt">
+        <h2>Example 1:</h2>
+        <div class="inner">
+          <h3>About Us:</h3>
+          <p>Hi there, I'm Charlie, the founder of Melt. We sell CBD-infused bath bombs and are just getting started building this new business.</p>
+          <h3>Project Description: </h3>
+          <p>I recently purchased a Shopify theme from Out of the Sandbox and need help customizing it to fit our needs.</p>
+          <p>Given that we only sell 1 product (with a handful of variations), we want to feature it directly on the home page, so that people don't have to click into the product page in order to buy.</p>
+          <p>I'll attach the designs below to give you a sense of exactly what we're looking for.</p>
+          <h3>Project Goal: </h3>
+          <p>Before we launch, I want to make sure our store feels like our brand and properly highlights our product, as well as maximizes conversion rates.</p>
+        </div>
+      </div>
+      <div class="txt">
+        <h2>Example 2:</h2>
+        <div class="inner">
+          <h3>About Us:</h3>
+          <p>I work for a digital marketing agency and we have a client that sells subscription boxes with succulents (plants).</p>
+          <h3>Project Description: </h3>
+          <p>We're helping them run Instagram ads and need your help to improve the conversion rates on the site. Specifically we're looking to:</p>
+          <ul>
+            <li>A quick introduction to your business and you</li>
+            <li>A detailed description of what you need help with</li>
+            <li>Context or the goal you're trying to achieve</li>
+          </ul>
+          <h3>Project Goal: </h3>
+          <p>It would be great to jump on a Zoom call to hash out the final details. We'd love to get this done by the end of next week if possible.</p>
+        </div>
+      </div>
+      <div class="txt">
+        <h2>Example 3:</h2>
+        <div class="inner">
+          <h3>About Us:</h3>
+          <p>I'm the e-commerce manager at an organic cat food brand. We've been around for the past couple years and have been running our store on WordPress with WooCommerce.</p>
+          <h3>Project Description: </h3>
+          <p>We're looking to hire a freelancer to help us migrate the existing site over to Shopify Plus and then handle ongoing changes from there. I'll attach our working document below that explains all the functionality that needs to be ported over. We're also looking to add a new wholesale channel into the mix as we expand our target customer base.</p>
+          <h3>Project Goal: </h3>
+          <p>Our ideal timeline is to make this happen over the next 2 - 3 months. Looking forward to working together!</p>
+        </div>
+      </div>
+    </div>
+    <div class="minimized-form">
+      <div class="txt">
+        <div>get started</div>
+        <p>Welcome to Storetasker! Ready to start your first project?</p>
+        <a>get started</a>
+      </div>
+    </div>
     <div class="main">
       <div class="header-container">
         <header class="header">
@@ -57,10 +145,10 @@
               </ul>
               <ul class="navbar-nav align-items-center">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">become an expert</a>
+                  <a class="nav-link" href="become-an-expert.html">become an expert</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link bordered-text" href="form.html">start a project</a>
+                  <p class="nav-link bordered-text">start a project</p>
                 </li>
               </ul>
             </div>

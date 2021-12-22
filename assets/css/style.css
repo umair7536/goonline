@@ -3580,32 +3580,36 @@ ul#tabs-expert-1 li.active {
 }
 body.modal-opens {
   overflow: hidden;
+  background-color: #000;
 }
 body.modal-opens .main {
   opacity: 0.5;
 }
-.popup-form {
+.popup-form,.see-example {
   padding: 10px 25px;
   width: 100%;
   max-width: 42%;
   display: none;
   position: fixed;
   right: 0;
-  top: 0;
+  bottom: 0;
   z-index: 9;
   background: #fff;
   height: 100%;
-  overflow: scroll;
+  overflow: auto;
   border: 2px solid #000;
 }
 .popup-form .form-header {
   display: flex;
   justify-content: space-between;
 }
-.popup-form .form-body {
-  padding: 10px 0;
+button:focus {
+  outline: none !important;
 }
-.form-header button.close {
+.popup-form .form-body {
+  padding: 20px 0 10px;
+}
+.form-header button.close,button.back-btn {
   font-size: 14px;
   line-height: 20px;
   font-family: "Space Grotesk";
@@ -3617,8 +3621,16 @@ body.modal-opens .main {
   background-position: center left 5px;
   background-image: url("../images/icon-close-black.png");
   background-size: 15px 15px;
+  border: none;
 }
-.form-header button.close:hover {
+button.back-btn {
+  background-image: url("../images/back-arrow-black.png");
+  margin: 0 0 25px 0;
+}
+.see-example .txt .inner p {
+  padding: 0 0 20px 0;
+}
+.form-header button.close:hover,button.back-btn:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 .form-header button.sign-in {
@@ -3642,14 +3654,46 @@ body.modal-opens .main {
   line-height: 80px;
   font-weight: 700;
 }
-.form-body p {
+.see-example h1 {
+  font-size: 35px;
+  color: #000;
+  font-family: "Space Grotesk";
+  letter-spacing: -0.06em;
+  line-height: 40px;
+  font-weight: 700;
+}
+.popup-form  p {
   font-size: 18px;
-  line-height: 30px;
+  line-height: 26px;
   font-family: "Source-Sans-Pro-600";
   color: #000;
   opacity: 1;
   letter-spacing: -0.02em;
   margin: 0;
+}
+.see-example  p {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Space Grotesk';
+  font-weight: 400;
+  color: #000;
+  opacity: 1;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+.see-example  ul li {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Space Grotesk';
+  font-weight: 400;
+  color: #000;
+  opacity: 1;
+  letter-spacing: -0.02em;
+  margin: 0;
+  list-style: disc;
+}
+.see-example  ul {
+  padding: 10px 26px;
 }
 .form-body form p {
   font-size: 14px;
@@ -3693,13 +3737,18 @@ body.modal-opens .main {
   padding: 10px 15px;
 }
 .popup-form form label {
-  font-size: 21px;
+  font-size: 19px;
   line-height: 30px;
   font-family: "Space Grotesk";
   color: #000;
   font-weight: 700;
   letter-spacing: -0.02em;
   padding: 30px 0 0 0;
+  width: 100%;
+    max-width: 75%;
+}
+.form-body form .see-example-btn {
+  background-image: none;
 }
 .popup-form form input {
   padding: 10px 15px;
@@ -3735,15 +3784,96 @@ form textarea::placeholder {
   background-image: url(../images/forward-arrow-white.png);
   background-size: 16px 16px;
   display: flex;
-  margin: 15px 0 0 auto;
+  margin: 25px 0 0 0;
   border: none;
   opacity: 0.7;
 }
 .popup-form button.next:hover {
   opacity: 1;
 }
-.sign-in-form {
+.popup-form .sign-in-form {
   display: none;
+  padding: 25px 0;
+}
+.popup-form .sign-in-form h1 {
+  font-size: 36px;
+  font-family: 'Source-Sans-Pro-600';
+  letter-spacing: -0.04em;
+  color: #000;
+}
+.minimized-form {
+  position: fixed;
+  width: 100%;
+  max-width: 34%;
+  z-index: 9;
+  bottom: 0;
+  right: 0;
+  margin: 0 0 0 auto;
+  cursor: pointer;
+  display: none;
+}
+.minimized-form .txt {
+  background: #fff;
+  border: 3px solid #000;
+  padding: 25px 15px 14px;
+  width: 100%;
+}
+.minimized-form .txt > div {
+  font-size: 14px;
+  font-family: 'Open Sans ExtraBold';
+  color: #000;
+  background: #c6ccff;
+  display: inline-block;
+  padding: 3px 20px;
+  position: absolute;
+  top: -11px;
+}
+.minimized-form .txt p {
+  font-size: 18px;
+  line-height: 23px;
+  font-family: 'Space Grotesk';
+  font-weight: 400;
+  color: #000;
+  padding: 16px 8px;
+  margin: 0;
+}
+.minimized-form .txt > a {
+  font-size: 14px;
+  font-family: 'Open Sans SemiBold';
+  color: #000;
+  display: block;
+  text-align: end;
+  background-image: url(../images/end-arrow-right.png);
+  background-repeat: no-repeat;
+  background-position: center right 3px;
+  background-size: 15px 15px;
+  padding: 0 23px 0 0;
+}
+.minimized-form .txt:hover a{
+  background-position: center right 0;
+}
+.see-example{
+  display: none;
+}
+.see-example .txt h2 {
+  font-family: 'Source-Sans-Pro-900';
+  font-size: 18px;
+  line-height: 25px;
+  margin: 20px 0 7px;
+}
+.see-example .txt h3 {
+  font-family: 'Space Grotesk';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  margin: 0 0 5px 0;
+}
+.see-example .txt .inner {
+  background: #fafafa;
+  padding: 15px;
+  border: 1px solid #000;
+  border-radius: 3px;
 }
 .hide {
   display: none;
