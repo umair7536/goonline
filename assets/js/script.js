@@ -96,7 +96,7 @@ $(document).ready(function () {
             slidesToScroll: 1,
             asNavFor: '.slider-x,.slider-y,.slider-zx',
             speed:1000,
-            autoplay:true,
+            autoplay:false,
             autoplaySpeed:3000,
             dots: false,
             arrows: false,
@@ -104,7 +104,18 @@ $(document).ready(function () {
             centerMode: true,
             focusOnSelect: true,
             lazyLoad: 'ondemand',
-            centerPadding: '20px'
+            centerPadding: '20px',
+            responsive: [
+              {
+                breakpoint: 769,
+                settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 1,
+                },
+              },
+              
+              
+            ],
           });
 
 
@@ -159,7 +170,18 @@ $(document).ready(function () {
             centerMode: false,
             focusOnSelect: true,
             lazyLoad: 'ondemand',
-            centerPadding: '50px'
+            centerPadding: '10px',
+            responsive: [
+              {
+                breakpoint: 1025,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                },
+              },
+              
+              
+            ],
           });
 
           $('.slider-xx').slick({
