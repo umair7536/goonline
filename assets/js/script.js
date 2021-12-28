@@ -219,7 +219,27 @@ $(document).ready(function () {
             centerMode: true,
             focusOnSelect: true,
             lazyLoad: 'ondemand',
-            centerPadding: '350px'
+            centerPadding: '350px',
+            responsive: [
+             
+              {
+                breakpoint: 769,
+                settings: {
+                  centerPadding: '180px',
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                },
+              },
+              {
+                breakpoint: 766,
+                settings: {
+                  centerPadding: '50px',
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                },
+              },
+              
+            ],
           });
 
 
@@ -229,6 +249,7 @@ $(document).ready(function () {
             speed:1000,
             autoplay:false,
             autoplaySpeed:2000,
+            swipe:false,
             dots: false,
             arrows: false,
             vertical: false,
@@ -263,7 +284,7 @@ $(document).ready(function () {
             slidesToScroll: 1,
             autoplay:false,
             autoplaySpeed:2000,
-            swipe:true,
+            swipe:false,
             dots: false,
             arrows: false,
             accessibility: true,

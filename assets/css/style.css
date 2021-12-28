@@ -1925,9 +1925,6 @@ filter: blur(40px);
   background-color: #000;
   position: relative;
 }
-.heavy-lifting-row {
-  display: flex;
-}
 .heavy-lifting-row .left-sec {
   width: 100%;
   max-width: 60%;
@@ -2199,7 +2196,6 @@ filter: blur(40px);
   display: flex;
   flex-wrap: nowrap;
   padding: 0 0 50px 0;
-  transform: scale(1.07);
 }
 .brandbelt-line .brandbelt-photo {
   width: 100%;
@@ -2214,10 +2210,11 @@ filter: blur(40px);
 }
 .customer-scrollto-outer .scrollto-txt {
   width: 100%;
-  max-width: 64%;
+  max-width: 100%;
   margin: 0 auto;
   display: flex;
   padding: 10px 10px;
+  justify-content: center;
 }
 .customer-scrollto-outer a {
   font-family: "Source-Sans-Pro-700";
@@ -2280,6 +2277,7 @@ filter: blur(40px);
   line-height: 80px;
   letter-spacing: -0.04em;
   margin-bottom: 5px;
+  word-break: break-all;
 }
 .scrollto-sec-outer .txt-sec p {
   font-size: 15px;
@@ -3915,6 +3913,10 @@ form textarea::placeholder {
   .txt-with-img-sec2-row .pricing-txt {
     padding: 14px 0px 0;
   }
+  .projects-sizes-section-outer h1 {
+    font-size: 48px;
+    line-height: 56px;
+  }
   .txt-with-img-sec2-row .pricing-txt > div {
     padding: 0 36px 0 0;
   }
@@ -3938,6 +3940,42 @@ form textarea::placeholder {
   }
   .projects-sizes-section-outer .tab-content .how-it-tabs-row .boxes {
     margin: 70px 0 0 0;
+  }
+  .pricing-banner-row .banner-txt {
+    max-width: 75%;
+    padding: 215px 0 50px 40px;
+  }
+  .pricing-banner-row .slider-xx.banner-imgs {
+    max-width: 35%;
+    padding: 240px 0 50px 40px;
+    margin: 0 20px 0 auto;
+  }
+  .pricing-banner-outer .slider-yy {
+    height: 815px;
+  }
+  .pricing-banner-outer .slider-yy .card-block a img {
+    height: 88%;
+    object-fit: cover;
+  }
+  .bg-slider .card-block.slick-slide a {
+    height: 740px;
+    background-size: 54% 100%;
+  }
+  .heavy-lifting-row {
+    height: 100%;
+  }
+  .heavy-lifting-left-slider .row {
+    align-items: flex-start;
+  }
+  .customers-banner-txt {
+    max-width: 100%;
+  }
+  .our-customers-banner-outer {
+    padding: 200px 0 0 0;
+  }
+  .customer-scrollto-outer a {
+    padding: 8px;
+    margin: 5px 8px;
   }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
@@ -3994,7 +4032,7 @@ form textarea::placeholder {
     font-size: 66px;
   }
   .projects-sizes-section-outer {
-    padding: 70px 0px;
+    padding: 40px 0px;
   }
   .projects-sizes-section-outer .tab-content .boxes {
     margin: 0 5px 25px;
@@ -4066,6 +4104,47 @@ form textarea::placeholder {
   }
   .navbar-footer ul.navbar-nav {
     padding-right: 30px;
+  }
+  .pricing-banner-row .right-side {
+    padding: 200px 50px 42px 0;
+  }
+  .pricing-banner-row .left-side {
+    padding: 200px 0 50px 42px;
+  }
+  .pricing-banner-row .img {
+    background-size: 75% 55%;
+    width: 50%;
+    top: 50%;
+    left: 20%;
+    z-index: -1;
+  }
+  .pricing-hero-story-quote .hero-story-row {
+    padding: 15px 16px 10px 16px;
+  }
+  .invest-brand-outer .invest-brand:first-child {
+    display: none;
+  }
+  .invest-brand-row {
+    justify-content: space-between;
+  }
+  .invest-brand-outer {
+    padding: 60px 60px 0;
+  }
+  .invest-brand-outer .invest-brand:not(:first-child) {
+    padding: 0 10px 0 10px;
+    margin: 0 -5px;
+  }
+  .invest-brand-outer .invest-brand {
+    max-width: 50%;
+  }
+  .invest-brand-outer .invest-brand .brand-img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    max-width: 100%;
+  }
+  .invest-brand .text {
+    max-width: 100%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -4162,7 +4241,7 @@ form textarea::placeholder {
   }
   .experts-section-outer {
     position: relative;
-    padding: 100px 50px 40px;
+    padding: 40px 50px 40px;
     background-image: none;
   }
   .experts-section-outer .experts-text-section {
@@ -4174,12 +4253,12 @@ form textarea::placeholder {
   .slider-experts.slider-experts-row.slick-initialized.slick-slider {
     max-width: 100%;
     margin: 0 auto 0 auto;
-    padding: 300px 0 0 0;
+    padding: 320px 0 0 0;
   }
   .experts-text-section h1,
   .experts-text-section h1 span {
-    font-size: 38px;
-    line-height: 48px;
+    font-size: 48px !important;
+    line-height: 48px !important;
   }
   .slider-experts a img.card-img {
     width: 100%;
@@ -4190,9 +4269,11 @@ form textarea::placeholder {
   }
   .experts-section-outer .how-it-works-row {
     margin: 0 -25px;
+    padding: 60px 0 0;
   }
   .story-section-outer {
     background: #e1e5e3;
+    padding: 40px 0;
   }
   ul#tabs-nav-1 {
     display: flex;
@@ -4226,7 +4307,7 @@ form textarea::placeholder {
     line-height: 30px;
   }
   .projects-sizes-section-outer {
-    padding: 70px 25px;
+    padding: 40px 25px;
   }
   .tab-content {
     flex-wrap: wrap;
@@ -4393,6 +4474,183 @@ form textarea::placeholder {
   .projects-sizes-section-outer .how-it-tabs-row .boxes img {
     max-width: 18%;
   }
+  .pricing-banner-row .banner-txt {
+    max-width: 75%;
+    padding: 150px 0 50px 20px;
+  }
+  .pricing-banner-row .slider-xx.banner-imgs {
+    display: none;
+  }
+  .heavy-lifting-row {
+    padding: 40px 25px;
+  }
+  .heavy-lifting-row .left-sec h1,
+  .heavy-lifting-row .left-sec h1 span {
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .heavy-lifting-right-slider .tab-txt {
+    font-size: 26px;
+    line-height: 28px;
+  }
+  .bg-slider .card-block.slick-slide a {
+    height: 1100px;
+    background-size: 0;
+  }
+  .heavy-lifting-left-slider .row .img {
+    display: none;
+  }
+  .heavy-lifting-left-slider .row .txt {
+    max-width: 100%;
+  }
+  .heavy-lifting-left-slider {
+    padding: 55px 0 40px 0px;
+  }
+  .heavy-lifting-row {
+    display: block;
+  }
+  .heavy-lifting-row .right-sec {
+    max-width: 68%;
+  }
+  .shopify-brands-logo-outer {
+    padding: 40px 20px;
+  }
+  .shopify-brands-logo-outer h1 {
+    font-size: 48px;
+    line-height: 38px;
+  }
+  .shopify-brands-logo-outer p {
+    max-width: 94%;
+  }
+  .shopify-brands-logo-outer .logo-imgs img {
+    padding: 20px 22px;
+    width: 100%;
+    max-width: 24%;
+  }
+  .customers-banner-txt h2 {
+    font-size: 58px;
+    line-height: 60px;
+  }
+  .customers-banner-txt h1 {
+    font-size: 58px;
+    line-height: 65px;
+  }
+  .brandbelt-line-lineitem:nth-child(5),
+  .brandbelt-line-lineitem:nth-child(4) {
+    display: none;
+  }
+  .customer-scrollto-outer .scrollto-txt {
+    flex-wrap: wrap;
+  }
+  .scrollto-sec-outer .txt-sec h2 {
+    font-size: 52px;
+    line-height: 58px;
+  }
+  .mobile-only {
+    display: block;
+  }
+  .desktop-only {
+    display: none !important;
+  }
+  .scrollto-sec-outer .img-sec-row {
+    flex-wrap: wrap;
+    padding: 0 0 0 0;
+    justify-content: center;
+  }
+  .scrollto-sec-outer .img-sec-row .col1 {
+    max-width: 100%;
+  }
+  .scrollto-sec-outer .img-sec-row .col1 h3 {
+    margin: 0;
+  }
+  .column-with-img.col1.mobile-only,
+  .scrollto-sec-outer .img-sec-row .col2,
+  .scrollto-sec-outer .img-sec-row .col3,
+  .scrollto-sec-outer .img-sec-row .col4 {
+    width: 100%;
+    max-width: 40%;
+    margin: 0 0 40px 0;
+  }
+  .scrollto-sec-outer .img-sec-row .col1 a {
+    padding: 0;
+  }
+  .scrollto-sec-outer .column-with-img .txt-sec {
+    padding: 0 0 60px 25px;
+  }
+  .scrollto-sec-outer {
+    padding: 45px 0 45px;
+  }
+  .customer-scrollto-outer {
+    display: none;
+  }
+  .story-section-outer.customersPage-story-section-outer {
+    padding: 40px 0 0;
+  }
+  .customersPage-story-section-outer #tabs-content-1 .tab-content-1 {
+    display: block !important;
+  }
+  .customersPage-story-section-outer .tab-content-1 h1 img {
+    max-width: 17%;
+  }
+  .pricing-banner-row .right-side {
+    display: none;
+  }
+  .pricing-banner-row .left-side {
+    max-width: 100%;
+    padding: 125px 0 200px 35px;
+  }
+  .pricing-banner-row .left-side h1,
+  .pricing-banner-row .left-side h1 span {
+    font-size: 58px;
+    line-height: 65px;
+  }
+  .pricing-banner-row .left-side p {
+    padding: 35px 0px 5px;
+    max-width: 60%;
+  }
+  .pricing-banner-row .img {
+    background-size: 100% 100%;
+    width: 56%;
+    top: 36%;
+    bottom: 0;
+    left: initial;
+    right: 0;
+    height: 70%;
+  }
+  .pricing-banner {
+    padding: 0 0 100px;
+  }
+  .invest-brand-outer {
+    padding: 60px 60px 20px;
+  }
+  .invest-brand-outer h1 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .invest-brand-outer p {
+    max-width: 100%;
+  }
+  .invest-brand-row {
+    padding: 40px 0 0;
+  }
+  .invest-brand-outer .invest-brand {
+    max-width: 100%;
+    padding: 0 0 60px 0;
+  }
+  .invest-brand-row {
+    display: block;
+  }
+  .invest-brand-outer .invest-brand .brand-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+  }
+  .invest-brand .text {
+    max-width: 96%;
+  }
+  .quotes-section-outer {
+    padding: 60px;
+  }
 }
 @media only screen and (max-device-width: 767px) {
   .header .navbar .navbar-brand-logo {
@@ -4502,7 +4760,7 @@ form textarea::placeholder {
   }
   .how-it-works-row {
     display: block;
-    padding: 0 20px;
+    padding: 0 0px;
   }
   .how-it-works-row .box {
     max-width: 100%;
@@ -4510,7 +4768,7 @@ form textarea::placeholder {
   }
   .experts-section-outer {
     position: relative;
-    padding: 50px 50px 40px;
+    padding: 40px 30px 40px;
     background-image: none;
   }
   .experts-section-outer .experts-text-section {
@@ -4526,8 +4784,8 @@ form textarea::placeholder {
   }
   .experts-text-section h1,
   .experts-text-section h1 span {
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 30px !important;
+    line-height: 30px !important;
   }
   .slider-experts a h2 {
     font-size: 18px;
@@ -4555,7 +4813,6 @@ form textarea::placeholder {
     width: 100%;
   }
   .experts-section-outer .how-it-works-row {
-    margin: 0 -25px;
     padding: 30px 0 0;
   }
   .how-it-works-row .box h2 {
@@ -4590,7 +4847,7 @@ form textarea::placeholder {
   }
   .story-section-outer {
     background: #e1e5e3;
-    padding: 50px 0px 50px;
+    padding: 40px 0px 40px;
   }
   ul#tabs-nav-1 {
     display: flex;
@@ -4897,6 +5154,276 @@ form textarea::placeholder {
     padding: 0;
     align-items: flex-start;
   }
+  .pricing-banner-row .banner-txt {
+    max-width: 88%;
+    padding: 100px 0 50px 20px;
+  }
+  .pricing-banner-outer .slider-yy {
+    height: 550px;
+  }
+  .pricing-banner-row .slider-xx.banner-imgs {
+    display: none;
+  }
+  .heavy-lifting-row {
+    padding: 40px 25px;
+  }
+  .heavy-lifting-row .left-sec {
+    max-width: 100%;
+  }
+  .heavy-lifting-row .left-sec h1,
+  .heavy-lifting-row .left-sec h1 span {
+    font-size: 38px;
+    line-height: 38px;
+  }
+  .heavy-lifting-left-slider .row {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .heavy-lifting-left-slider .row .img {
+    max-width: 100%;
+    margin: 0 0 25px 0;
+  }
+  .heavy-lifting-left-slider .row .img a {
+    padding: 15px 30px;
+  }
+  .heavy-lifting-left-slider .card-block .left-border {
+    left: 10px;
+  }
+  .heavy-lifting-left-slider .card-block .right-border {
+    right: 10px;
+  }
+  .heavy-lifting-left-slider .row .txt {
+    max-width: 100%;
+  }
+  .heavy-lifting-left-slider {
+    padding: 55px 0 40px 0px;
+  }
+  .heavy-lifting-row {
+    display: block;
+  }
+  .heavy-lifting-row .right-sec {
+    max-width: 100%;
+    padding: 0px 0 0;
+  }
+  .heavy-lifting-left-slider .row .txt h2 {
+    font-size: 26px;
+    line-height: 26px;
+  }
+  .heavy-lifting-left-slider .row .txt h3 {
+    font-size: 21px;
+    line-height: 26px;
+  }
+  .heavy-lifting-left-slider .row .txt p {
+    font-size: 15px;
+  }
+  .bg-slider .card-block.slick-slide a {
+    height: 1370px;
+    background-size: 0;
+  }
+  .heavy-lifting-row .right-sec p {
+    font-size: 20px;
+  }
+  .heavy-lifting-row .right-sec .arrow {
+    background-size: 26px 26px;
+    width: 26px;
+    height: 26px;
+    margin-bottom: 16px;
+  }
+  .heavy-lifting-right-slider .tab-txt {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .shopify-brands-logo-outer {
+    padding: 40px 20px;
+  }
+  .shopify-brands-logo-outer h1 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .shopify-brands-logo-outer p {
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 100%;
+  }
+  .shopify-brands-logo-outer .logo-imgs img {
+    padding: 20px 20px;
+    width: 100%;
+    max-width: 46%;
+  }
+  .our-customers-banner-outer {
+    padding: 115px 0 0 0;
+  }
+  .customers-banner-txt h2 {
+    font-size: 34px;
+    line-height: 38px;
+  }
+  .customers-banner-txt p {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 20px 30px 60px;
+  }
+  .brandbelt-line .brandbelt-logo {
+    display: none;
+  }
+  .brandbelt-line .brandbelt-photo {
+    padding: 0 5px;
+  }
+  .our-customers-banner-outer .brandbelt-line {
+    padding: 0 0 10px 0;
+  }
+  .customers-banner-txt h1 {
+    font-size: 34px;
+    line-height: 38px;
+  }
+  .brandbelt-line-lineitem:nth-child(5),
+  .brandbelt-line-lineitem:nth-child(4) {
+    display: none;
+  }
+  .customer-scrollto-outer .scrollto-txt {
+    flex-wrap: wrap;
+  }
+  .scrollto-sec-outer .txt-sec h2 {
+    font-size: 52px;
+    line-height: 58px;
+  }
+  .mobile-only {
+    display: block;
+  }
+  .desktop-only {
+    display: none !important;
+  }
+  .scrollto-sec-outer .img-sec-row {
+    flex-wrap: wrap;
+    padding: 0 0 0 0;
+    justify-content: center;
+  }
+  .scrollto-sec-outer .img-sec-row .col1 {
+    max-width: 100%;
+  }
+  .scrollto-sec-outer .img-sec-row .col1 h3 {
+    margin: 0;
+  }
+  .column-with-img.col1.mobile-only,
+  .scrollto-sec-outer .img-sec-row .col2,
+  .scrollto-sec-outer .img-sec-row .col3,
+  .scrollto-sec-outer .img-sec-row .col4 {
+    width: 100%;
+    max-width: 40%;
+    margin: 0 0 40px 0;
+  }
+  .scrollto-sec-outer .img-sec-row .col1 a {
+    padding: 0;
+  }
+  .scrollto-sec-outer .column-with-img .txt-sec {
+    padding: 0 0 60px 25px;
+  }
+  .scrollto-sec-outer {
+    padding: 45px 0 45px;
+  }
+  .customer-scrollto-outer {
+    display: none;
+  }
+  .story-section-outer.customersPage-story-section-outer {
+    padding: 40px 0 0;
+  }
+  .customersPage-story-section-outer #tabs-content-1 .tab-content-1 {
+    display: block !important;
+  }
+  .customersPage-story-section-outer #tabs-content-1 .footer-txt {
+    display: block;
+    padding: 0 10px 0 30px;
+    margin: 0;
+    background-size: 20px 20px;
+  }
+  #tabs-content-1 .footer-txt p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .customer-scrollto-outer {
+    display: none;
+  }
+  .story-section-outer.customersPage-story-section-outer {
+    padding: 40px 0 0;
+  }
+  .customersPage-story-section-outer #tabs-content-1 .tab-content-1 {
+    display: block !important;
+  }
+  .customersPage-story-section-outer .tab-content-1 h1 img {
+    max-width: 17%;
+  }
+  .pricing-banner-row .right-side {
+    display: none;
+  }
+  .pricing-banner-row .left-side {
+    max-width: 100%;
+    padding: 100px 0 110px 25px;
+  }
+  .pricing-banner-row .left-side a.btn {
+    line-height: 18px !important;
+    padding: 12px 16px;
+  }
+  .pricing-banner-row .left-side h1,
+  .pricing-banner-row .left-side h1 span {
+    font-size: 34px;
+    line-height: 38px;
+  }
+  .pricing-banner-row .left-side p {
+    padding: 35px 0px 5px;
+    max-width: 90%;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .pricing-banner-row .img {
+    background-size: 100% 100%;
+    width: 70%;
+    top: 40%;
+    bottom: 0;
+    left: initial;
+    right: 0;
+    height: 76%;
+  }
+  .pricing-banner {
+    padding: 0 0 100px;
+  }
+  .invest-brand .text p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .down-arrow {
+    background-size: 23px 23px;
+  }
+  .invest-brand-outer {
+    padding: 40px 20px 20px;
+  }
+  .invest-brand-outer h1 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .invest-brand-outer p {
+    max-width: 100%;
+  }
+  .invest-brand-row {
+    padding: 40px 0 0;
+  }
+  .invest-brand-outer .invest-brand {
+    max-width: 100%;
+    padding: 0 0 60px 0;
+  }
+  .invest-brand-row {
+    display: block;
+  }
+  .invest-brand-outer .invest-brand .brand-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+  }
+  .invest-brand .text {
+    max-width: 96%;
+  }
+  .quotes-section-outer {
+    padding: 40px 20px;
+  }
 }
 @media only screen and (max-device-width: 360px) {
   .banner-slider-sec .story-section {
@@ -4918,5 +5445,22 @@ form textarea::placeholder {
   .projects-sizes-section-outer #tabs-nav li {
     font-size: 18px;
     margin: 5px 5px;
-}
+  }
+  .review-y-slider.review-y-slider-row.slick-initialized.slick-slider {
+    margin-top: -205px;
+  }
+  .review-y-slider p {
+    margin-bottom: 18px;
+    font-size: 14px;
+    line-height: 16px;
+    background-size: 20px 20px;
+    padding: 0px 28px;
+  }
+  .review-x-slider img.top-img {
+    top: 25%;
+  }
+  .pricing-banner-row .img {
+    width: 86%;
+    height: 70%;
+  }
 }
