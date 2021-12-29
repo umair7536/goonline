@@ -1,4 +1,8 @@
 $(document).ready(function () {
+  $('.menu__btn').on('click', function () {
+    $(".header-container").toggleClass("hide");
+    $(".main").toggleClass("modal-opens");
+  });
         $(window).on("scroll", function () {
             if ($(window).scrollTop() > 100) {
             $(".header,.header-container").addClass("sticky");
@@ -301,7 +305,17 @@ $(document).ready(function () {
             accessibility: false,
             centerMode: false,
             focusOnChange: true,
-            focusOnSelect: true
+            focusOnSelect: true,
+            responsive: [
+             
+              {
+                breakpoint: 766,
+                settings: {
+                  slidesToShow: 2,
+                },
+              },
+              
+            ],
           });
           $('.become-aet-slider').slick({
             slidesToShow: 1,
@@ -330,7 +344,17 @@ $(document).ready(function () {
             accessibility: true,
             centerMode: true,
             focusOnChange: true,
-            focusOnSelect: true
+            focusOnSelect: true,
+            responsive: [
+             
+              {
+                breakpoint: 766,
+                settings: {
+                  slidesToShow: 1,
+                },
+              },
+              
+            ],
           });
           $('.expert-txt-slider').slick({
             slidesToShow: 1,
