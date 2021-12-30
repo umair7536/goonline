@@ -1,7 +1,8 @@
 $(document).ready(function () {
-  $('.menu__btn').on('click', function () {
-    $(".header-container").toggleClass("hide");
-    $(".main").toggleClass("modal-opens");
+  $(".hamburger").click(function(){
+    $(this).toggleClass("is-active");
+    $('.navbar-header.only-mobile').toggleClass('show');
+    $('body').toggleClass('overflow');
   });
         $(window).on("scroll", function () {
             if ($(window).scrollTop() > 100) {
