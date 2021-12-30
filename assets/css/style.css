@@ -21,6 +21,9 @@ html {
 .mobile-only {
   display: none;
 }
+.three {
+  display: none;
+}
 .hamburger-menu.for-mobile {
   display: none;
 }
@@ -3589,7 +3592,8 @@ body.modal-opens .main {
 .see-example {
   padding: 10px 25px;
   width: 100%;
-  max-width: 42%;
+  max-width: 500px;
+  min-width: 320px;
   display: none;
   position: fixed;
   right: 0;
@@ -3807,13 +3811,13 @@ form textarea::placeholder {
 .minimized-form {
   position: fixed;
   width: 100%;
-  max-width: 34%;
-  z-index: 9;
+  min-width: 320px;
+    max-width: 500px;
+  z-index: 111;
   bottom: 0;
   right: 0;
   margin: 0 0 0 auto;
   cursor: pointer;
-  display: none;
 }
 .minimized-form .txt {
   background: #fff;
@@ -4842,6 +4846,42 @@ form textarea::placeholder {
   }
   .only-mobile {
     display: none;
+}
+.three {
+  display: block;
+}
+.navbar-expand-sm .navbar-nav {
+  -ms-flex-direction: column;
+  flex-direction: column !important;
+}
+.form-body h1 {
+  font-size: 46px;
+}
+.popup-form p {
+  font-size: 16px;
+  line-height: 22px;
+}
+.popup-form form label {
+  font-size: 16px;
+  line-height: 26px;
+}
+.form-body form .see-example-btn {
+  padding: 0;
+}
+.popup-form, .see-example {
+  padding: 10px 10px;
+}
+.form-body form > div {
+  display: block;
+}
+.minimized-form .txt {
+  padding: 20px 15px 9px;
+}
+.minimized-form .txt p {
+  font-size: 16px;
+}
+.form-body form > div p {
+  display: none;
 }
 .navbar-header.only-mobile.justify-content-between.show {
   display: block;
@@ -6060,4 +6100,7 @@ form textarea::placeholder {
   -ms-transform: translateY(-13px) rotate(90deg);
   -o-transform: translateY(-13px) rotate(90deg);
   transform: translateY(-13px) rotate(90deg);
+}
+.only-mobile {
+  display: none;
 }

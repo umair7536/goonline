@@ -373,10 +373,8 @@ $(document).ready(function () {
             focusOnSelect: true
           });
 
-          $('.bordered-text,.minimized-form').on('click', function () {
+          $('.pop-up-form,.minimized-form').on('click', function () {
             $("body").addClass("modal-opens");
-            // $('.popup-form').show("slow");
-            // $( ".popup-form" ).slideUp("fast");
             $('.popup-form').slideDown(300, function(){
               $(this).show();
             });
