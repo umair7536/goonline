@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
     <link rel="icon" type="image/png" href="./assets/images/logo.png"/>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/source-sans-pro-stylesheet.css"/>
@@ -122,7 +121,7 @@
       <div class="header-container">
         <header class="header">
           <nav class="navbar navbar-expand-sm justify-content-between">
-            <a class="navbar-brand-logo" href="index.html"> 
+            <a class="navbar-brand-logo" href="/"> 
               <img
                       class="img-fluid logo"
                       src="./assets/images/logo.png"
@@ -131,21 +130,21 @@
             <div class="navbar-header only-desktop justify-content-between">
               <ul class="navbar-nav align-items-center">
                 <li class="nav-item">
-                 <a class="nav-link current" href="how-it-works.html">how it works</a>
+                 <a class="nav-link current" href="how-it-works">how it works</a>
                  </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="our-experts.html">our experts</a>
+                  <a class="nav-link" href="our-experts">our experts</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="our-customers.html">our customers</a>
+                  <a class="nav-link" href="our-customers">our customers</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pricing.html">pricing</a>
+                  <a class="nav-link" href="pricing">pricing</a>
                 </li>
               </ul>
               <ul class="navbar-nav align-items-center">
                 <li class="nav-item">
-                  <a class="nav-link" href="become-an-expert.html">become an expert</a>
+                  <a class="nav-link" href="become-an-expert">become an expert</a>
                 </li>
                 <li class="nav-item">
                   <p class="nav-link bordered-text">start a project</p>
@@ -162,21 +161,21 @@
             <div class="navbar-header only-mobile justify-content-between">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                 <a class="nav-link current" href="how-it-works.html">how it works</a>
+                 <a class="nav-link current" href="how-it-works">how it works</a>
                  </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="our-experts.html">our experts</a>
+                  <a class="nav-link" href="our-experts">our experts</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="our-customers.html">our customers</a>
+                  <a class="nav-link" href="our-customers">our customers</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pricing.html">pricing</a>
+                  <a class="nav-link" href="pricing">pricing</a>
                 </li>
               </ul>
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="become-an-expert.html">become an expert</a>
+                  <a class="nav-link" href="become-an-expert">become an expert</a>
                 </li>
                 <li class="nav-item">
                   <p class="nav-link">start a project</p>
@@ -188,121 +187,370 @@
         </header>
             
       </div>
-      <div class="pricing-banner">
-        <div class="pricing-banner-row">
-          <div class="img"></div>
-          <div class="left-side">
-            <h1>Big or small<span>,<br>
-              we do it all.</span></h1>
-              <p>Affordable, project-based pricing. On time and under budget. Perfect for a growing brand.</p>
-              <a class="btn" href="#">start a project</a>
-          </div>
-          <div class="right-side">
-            <div class="pricing-hero-story">
-              <div class="pricing-hero-story-prompt story-prompt">“We want to do in-cart upsells”</div>
-              <div class="pricing-hero-story-quote story-prompt">
-                <div class="hero-story-row">
-                  <div class="hero-story-card">
-                    <h3>project</h3>
-                    <h2>In cart upsells</h2>
-                  </div>
-                  <div class="hero-story-card">
-                    <h3>price</h3>
-                    <h2>$250</h2>
-                  </div>
-                  </div>
+      <div class="become-an-expert-banner-outer">
+        <div class="become-an-expert-banner-row">
+            <div class="txt">
+                <h1>Join the community of</h1>
+                <h2>top Shopify Experts</h2>
+                <p>Endless clients, great software, and support when you need it. Experience freelancing at its finest.</p>
+                <a href="#">apply now</a>
+                <span>For freelancers,<br>
+                    by freelancers.</span>
+            </div>
+            <div class="img">
+                <img class="img-fluid" src="./assets/images/hero-bg-large.png" />
+            </div>
+        </div>
+        <div class="become-an-expert-banner-slider">
+            <div class="txt">
+                <h1>Work with fast-growing</h1>
+                <h2>brands on Shopify</h2>
+                <span></span>
+            </div>
+            <div class="row-banner-slider">
+            <div class="banner-slider become-ae-slider">
+                <div class="img-with-txt">
+                    <img class="img-fluid" src="./assets/images/brand-product-henry.png" />
+                    <img class="img-fluid" src="./assets/images/brand-logo-henry1.png" />
+                </div>
+                <div class="img-with-txt">
+                    <img class="img-fluid" src="./assets/images/brand-product-wildgood.png" />
+                    <img class="img-fluid" src="./assets/images/brand-logo-wildgood.png" />
+                </div>
+                <div class="img-with-txt">
+                    <img class="img-fluid" src="./assets/images/brand-product-chubbies.png" />
+                    <img class="img-fluid" src="./assets/images/brand-logo-chubbies.png" />
+                </div>
+                <div class="img-with-txt">
+                    <img class="img-fluid" src="./assets/images/brand-product-plenaire.png" />
+                    <img class="img-fluid" src="./assets/images/brand-logo-plenaire.png" />
                 </div>
             </div>
-            <div class="pricing-hero-story">
-              <div class="pricing-hero-story-prompt story-prompt">“We want to do in-cart upsells”</div>
-              <div class="pricing-hero-story-quote story-prompt">
-                <div class="hero-story-row">
-                  <div class="hero-story-card">
-                    <h3>project</h3>
-                    <h2>In cart upsells</h2>
-                  </div>
-                  <div class="hero-story-card">
-                    <h3>price</h3>
-                    <h2>$250</h2>
-                  </div>
-                  </div>
+            <div class="banner-slider-txt become-aet-slider">
+                <div>
+                <h1>How Justine<img class="img-fluid" src="./assets/images/story-icon-ogy.png" />
+                    started working
+                    with Jack Henry</h1>
+                <p>They’ve done 8 projects together so far.</p>
+                </div>
+                <div>
+                    <h1>How Joe<img class="img-fluid" src="./assets/images/story-icon-markw.png" />
+                        started working
+                        with Wildgood</h1>
+                    <p>They’ve done 2 projects together so far.</p>
+                </div>
+                <div>
+                    <h1>How Adan<img class="img-fluid" src="./assets/images/story-icon-logan.png" />
+                        started working
+                         with Plenaire</h1>
+                    <p>They’ve done 5 projects together so far.</p>
+                </div>
+                <div>
+                    <h1>How Luke<img class="img-fluid" src="./assets/images/story-icon-ivan.png" />
+                        started working
+                         with Superfluid</h1>
+                    <p>They’ve done 7 projects together so far.</p>
                 </div>
             </div>
-            <div class="pricing-hero-story">
-              <div class="pricing-hero-story-prompt story-prompt">“We want to do in-cart upsells”</div>
-              <div class="pricing-hero-story-quote story-prompt">
-                <div class="hero-story-row">
-                  <div class="hero-story-card">
-                    <h3>project</h3>
-                    <h2>In cart upsells</h2>
-                  </div>
-                  <div class="hero-story-card">
-                    <h3>price</h3>
-                    <h2>$250</h2>
-                  </div>
-                  </div>
-                </div>
+            <div class="line"></div>
+            <div class="circle"></div>
+            </div>
+        </div>
+      </div>
+      <div class="freelancing-txt-sec-outer">
+        <div class="top-txt-sec">
+          <div class="txt-row">
+            <div class="left-sec">
+              <h1>Freelancing</h1>
+              <h2>was broken</h2>
+              <div>
+              <h3>A global price race to the bottom</h3>
+              <p> Due to cutthroat competition and quote shopping clients</p>
+              </div>
+              <div>
+              <h3>Just another name in a list of 1,500</h3>
+              <p>How do you stick out when someone is always willing to work for less?</p>
+              </div>
+              <div>
+              <h3>Rebuilding reputation from scratch</h3>
+              <p>Worrying about your 4.7 star rating, despite years of experience</p>
+              </div>
+              <div>
+              <h3>Bidding on dozens, just to win one</h3>
+              <p>Wasting time interviewing and chasing leads that won't convert</p>
+              </div>
+            </div>
+            <div class="right-sec">
+              <h4>The existing plaforms have made it nearly impossible for high-quality freelancers to succeed.</h4>
+              <div class="arrow"></div>
+              <h5>Let's change that.</h5>
             </div>
           </div>
         </div>
       </div>
-      <div class="how-it-works-outer pricingPage-how-it-works-outer wrapper">
-        <p>SO, HOW DOES PRICING WORK?</p>
-        <h1>You’ll save time and money.</h1>
-        <div class="how-it-works-row">
-          <div class="box">
-            <span>[1]</span>
-            <h2>Matched to an expert<br>within a few hours.</h2>
-            <p>Save days or weeks looking for that diamond in the rough.</p>
-          </div>
-          <div class="box">
-            <span>[2]</span>
-            <h2>They’ll give you a<br>fair quote, fast.</h2>
-            <p>Agency quality work at freelancer prices.</p>
-          </div>
-          <div class="box">
-            <span>[3]</span>
-            <h2>Review and approve<br>everything.</h2>
-            <p>Payment is held in escrow until you approve the work.</p>
-          </div>
-        </div>
-      </div>
-      <div class="invest-brand-outer">
-        <h1>Let’s invest in your brand.</h1>
-        <p>A better store drives more sales. Your investment in Shopify development means more orders going out the door.</p>
-        <div class="invest-brand-row">
-          <div class="invest-brand">
-            <img class="img-fluid brand-img-topper" src="./assets/images/brand-topper-henry.png"/>
-            <img class="img-fluid brand-img" src="./assets/images/brand-photo-henry.png"/>
-            <div class="text">
-              <img class="img-fluid brand-logo" src="./assets/images/brand-logo-henry.png"/>
-              <div class="down-arrow"></div>
-              <p>Upsells in the cart and a sticky add to cart bar helped Jack Henry improve conversion rates.</p>
+      <div class="freelancing-txt-sec-outer better-way-txt-sec-outer">
+        <div class="bottom-txt-sec">
+          <div class="txt-row">
+            <div class="left-sec">
+              <h1>We created</h1>
+              <h2>a better way</h2>
+              <div>
+              <h3>Community, not competition</h3>
+              <p>With 1:1 matching, you'll never compete against your fellow freelancers</p>
+              </div>
+              <div>
+              <h3>Endless clients & opportunities</h3>
+              <p>You choose your clients and how much work you want every week</p>
+              </div>
+              <div>
+              <h3>Only the top 5% of Shopify Experts</h3>
+              <p>We interview thousands to select the best members for our community</p>
+              </div>
+              <div>
+              <h3>No external ratings or profiles</h3>
+              <p>No need for comparison, clients trust Storetasker's reputation</p>
+              </div>
             </div>
-          </div>
-          <div class="invest-brand">
-            <img class="img-fluid brand-img-topper" src="./assets/images/brand-topper-orangewood.png"/>
-            <img class="img-fluid brand-img" src="./assets/images/brand-photo-orangewood.png"/>
-            <div class="text">
-              <img class="img-fluid brand-logo" src="./assets/images/brand-logo-orangewood.png"/>
-              <div class="down-arrow"></div>
-              <p>We’ve worked on over 41 projects together since 2018, helping a craft guitar company build a thriving Shopify business.</p>
-            </div>
-          </div>
-          <div class="invest-brand">
-            <img class="img-fluid brand-img-topper" src="./assets/images/brand-topper-feel.png"/>
-            <img class="img-fluid brand-img" src="./assets/images/brand-photo-feel.png"/>
-            <div class="text">
-              <img class="img-fluid brand-logo" src="./assets/images/brand-logo-feel.png"/>
-              <div class="down-arrow"></div>
-              <p>We helped with theme customizations to make sure Feel stayed on brand.</p>
+            <div class="right-sec">
+              <h4>Our Experts average over $5,000 per month with 82% of quotes accepted.</h4>
+              <div class="arrow"></div>
+              <h5>Storetasker has built the platform for high-quality freelancers.</h5>
             </div>
           </div>
         </div>
       </div>
-      <div class="projects-sizes-section-outer pricingPage-projects-sizes-section-outer">
+      <div class="expert-sec-slider-outer">
+        <div class="sec-row">
+          <div class="left-sec">
+            <h1>Join our community of</h1>
+            <h2>Shopify Experts</h2>
+          </div>
+          <div class="right-sec">
+            <p>E-commerce development, conversion rate optimization, strategy, and more.</p>
+            <a href="#">Apply Now</a>
+          </div>
+        </div>
+        <div class="expert-photos expert-photos-slider">
+          <div class="wrap">
+            <img class="img-fluid" src="./assets/images/expert-1.png" />
+            <p>Full Time Freelancer</p>
+          </div>
+          <div class="wrap">
+            <img class="img-fluid" src="./assets/images/expert-2.png" />
+            <p>BOUTIQUE AGENCY</p>
+          </div>
+          <div class="wrap">
+            <img class="img-fluid" src="./assets/images/expert-3.png" />
+            <p>BOUTIQUE AGENCY</p>
+          </div>
+          <div class="wrap">
+            <img class="img-fluid" src="./assets/images/expert-4.png" />
+            <p>Full Time Freelancer</p>
+          </div>
+          <div class="wrap">
+            <img class="img-fluid" src="./assets/images/expert-5.png" />
+            <p>Full Time Freelancer</p>
+          </div>
+          <div class="wrap">
+            <img class="img-fluid" src="./assets/images/expert-6.png" />
+            <p>Full Time Freelancer</p>
+          </div>
+        </div>
+        <div class="expert-txt expert-txt-slider">
+          <div>
+          <div class="sec-row">
+            <div class="colum">
+              <h2>Adan</h2>
+              <h3>13 years of freelancing experience</h3>
+              <p>From custom Shopify apps to complex e-commerce site, Adan had done it all</p>
+            </div>
+            <div class="colum">
+              <h3>Guatemala</h3>
+              <p>Location</p>
+              <h3>$15,000</h3>
+              <p>Storetasker monthly earnings</p>
+            </div>
+            <div class="colum">
+              <h3>2 years</h3>
+              <p>With Storetasker</p>
+              <h3>75%</h3>
+              <p>% of income from Storetasker</p>
+            </div>
+            <div class="colum">
+              <h3>Storetasker has made a huge impact in my career and my personal life. I have the blessing and the opportunity to work with premium brands and build different type of digital products, to help them achieve success with their goals."</h3>
+            </div>
+          </div>
+          </div>
+          <div>
+            <div class="sec-row">
+              <div class="colum">
+                <h2>Gina</h2>
+                <h3>9 years of freelancing experience</h3>
+                <p>A former digital marketer, turned Shopify developer. She loves hiking with her dog, Lucy.</p>
+              </div>
+              <div class="colum">
+                <h3>USA</h3>
+                <p>Location</p>
+                <h3>$62,000</h3>
+                <p>Storetasker monthly earnings</p>
+              </div>
+              <div class="colum">
+                <h3>2 years</h3>
+                <p>With Storetasker</p>
+                <h3>40%</h3>
+                <p>% of income from Storetasker</p>
+              </div>
+              <div class="colum">
+                <h3>Working on Storetasker has connected me to some wonderful clients. There are tons of new opportunities every single day -- no more awkward gaps or slow weeks which has been so nice.”</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="sec-row">
+              <div class="colum">
+                <h2>Mark</h2>
+                <h3>15 years of freelancing experience</h3>
+                <p>Mark has built over 100 websites and enjoys crafting unique customer experiences</p>
+              </div>
+              <div class="colum">
+                <h3>England</h3>
+                <p>Location</p>
+                <h3>$15</h3>
+                <p>Clients on a monthly retainer</p>
+              </div>
+              <div class="colum">
+                <h3>3 years</h3>
+                <p>With Storetasker</p>
+                <h3>35%</h3>
+                <p>% of income from Storetasker</p>
+              </div>
+              <div class="colum">
+                <h3>Storetasker has connected me with clients that would never have been possible without them. That combined with an incredible support network and community makes joining an amazing opportunity for any developer”</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="sec-row">
+              <div class="colum">
+                <h2>Chiara</h2>
+                <h3>5 years of freelancing experience</h3>
+                <p>She focuses on Shopify customizations that improve user experience and increase revenue</p>
+              </div>
+              <div class="colum">
+                <h3>Canada</h3>
+                <p>Location</p>
+                <h3>$10,800</h3>
+                <p>Storetasker monthly earnings</p>
+              </div>
+              <div class="colum">
+                <h3>2 years</h3>
+                <p>With Storetasker</p>
+                <h3>100%</h3>
+                <p>% of income from Storetasker</p>
+              </div>
+              <div class="colum">
+                <h3>I never thought I would see my career reach such great heights thanks to Storetasker. Every day, week, and month I’m thankful that I get to help clients build their brand on Shopify through code — from appearance to functionality.”</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="sec-row">
+              <div class="colum">
+                <h2>Adan</h2>
+                <h3>13 years of freelancing experience</h3>
+                <p>From custom Shopify apps to complex e-commerce site, Adan had done it all</p>
+              </div>
+              <div class="colum">
+                <h3>Guatemala</h3>
+                <p>Location</p>
+                <h3>$15,000</h3>
+                <p>Storetasker monthly earnings</p>
+              </div>
+              <div class="colum">
+                <h3>2 years</h3>
+                <p>With Storetasker</p>
+                <h3>75%</h3>
+                <p>% of income from Storetasker</p>
+              </div>
+              <div class="colum">
+                <h3>Storetasker has made a huge impact in my career and my personal life. I have the blessing and the opportunity to work with premium brands and build different type of digital products, to help them achieve success with their goals."</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="sec-row">
+              <div class="colum">
+                <h2>Thomas </h2>
+                <h3>8 years of freelancing experience</h3>
+                <p>Thomas loves building custom themes end to end and recently launched his own Shopify App</p>
+              </div>
+              <div class="colum">
+                <h3>Canada</h3>
+                <p>Location</p>
+                <h3>$7,000</h3>
+                <p>Storetasker monthly earnings</p>
+              </div>
+              <div class="colum">
+                <h3>4 years</h3>
+                <p>With Storetasker</p>
+                <h3>50%</h3>
+                <p>% of income from Storetasker</p>
+              </div>
+              <div class="colum">
+                <h3>Storetasker is the first place I go when my schedule is opens up. Over the last four years it’s enabled me to grow from a solo freelancer into a small agency, while constantly getting to work with amazing brands.”</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="become-an-expert-tab-outer">
+        <div class="left-sec">
+          <h1>Independence</h1>
+          <h2>with a team</h2>
+          <ul id="tabs-expert-1">
+            <li><a href="#expert-tab-1" class="tabs-txt">
+              <h3>A smart and helpful community</h3>
+              <p>Our private Slack group is a place to ask technical questions, get advice, and connect with Experts around the world.</p>
+            </a></li>
+            <li><a href="#expert-tab-2" class="tabs-txt">
+              <h3>Work as little or as much as you want</h3>
+              <p>From once in a while to 8 days a week, Storetasker can be your main gig or just an easy way to fill in the gaps. You decide.</p>
+            </a></li>
+            <li><a href="#expert-tab-3" class="tabs-txt">
+              <h3>Project support, when you need it</h3>
+              <p>Our Support Team is here to help! From closing a big project to managing a tricky client, we've always got your back.</p>
+            </a></li>
+          </ul> 
+        </div>
+        <div id="tabs-content-1" class="right-sec">
+        <div id="expert-tab-1" class="tab-expert-1" >
+          <img class="img-fluid" src="./assets/images/indy-a-1.png" />
+          <img class="img-fluid" src="./assets/images/indy-a-2.png" />
+          <img class="img-fluid" src="./assets/images/indy-a-3.png" />
+        </div>
+        <div id="expert-tab-2" class="tab-expert-1">
+          <img class="img-fluid" src="./assets/images/indy-b-1.f.png" />
+          <img class="img-fluid" src="./assets/images/indy-b-2.png" />
+          <img class="img-fluid" src="./assets/images/indy-b-3.png" />
+        </div>
+        <div id="expert-tab-3" class="tab-expert-1">
+          <img class="img-fluid" src="./assets/images/indy-a-1.png" />
+          <img class="img-fluid" src="./assets/images/indy-a-2.png" />
+          <img class="img-fluid" src="./assets/images/indy-a-3.png" />
+        </div>
+        </div>
+      </div>
+      <div class="multi-color-txt-outer">
+        <h1>Great software</h1>
+        <h2>for great experts</h2>
+        <p>Integrated email, SMS, phone calls, voicemail. Calendar, meeting invites, 
+          scheduling links. Reminders, notes, project management tools. Escrow, quotes,
+           bills, invoices, subscriptions. Automated payments worldwide.</p>
+        <h5>+ new features added every week</h5>
+      </div>
+      <div class="projects-sizes-section-outer expertPage-projects-sizes-section-outer">
         <div class="wrapper">
-          <h1>For projects big and small,</h1>
+          <h1>Every type of Shopify project,</h1>
           <h2>like these.</h2>
           <div class="arrow"></div>
           <div class="tabs">
@@ -563,294 +811,35 @@
               </div>
             </div>
           </div>
-          <h3>If it’s Shopify, we can do it.</h3>
-          <a class="footer-btn" href="#">start a project</a>
         </div>
       </div>
-      <div class="quotes-section-outer">
-        <h3>OUR QUOTES</h3>
-        <h1>The Finer Print</h1>
-        <p>How about transparent up-front quotes and simple per-project pricing?</p>
-        <div class="quoute-row">
-          <div class="quotes-box">
-            <h2>Safe Escrow Payments</h2>
-            <p>Storetasker holds payment in escrow until you approve the work. Satisfaction guaranteed.</p>
-          </div>
-          <div class="quotes-box">
-            <h2>Verified Quotes</h2>
-            <p>Don’t worry about overpaying. We’ve quoted over 50,000 projects and are pretty great at it.</p>
-          </div>
-          <div class="quotes-box">
-            <h2>Quotes That Make Sense</h2>
-            <p>No confusing tech jargon here. Your Expert will give a clear project scope that’s easy to understand.</p>
-          </div>
-          <div class="quotes-box">
-            <h2>Credit Card or PayPal</h2>
-            <p>We accept all major cards and can even do wire transfers for extra large projects.</p>
-          </div>
+      <div class="shopify-brands-logo-outer become-an-expert-brandslogo">
+        <h2>Part of the global</h2>
+        <h1>Shopify ecosytem</h1>
+        <p>GoOnline is partnered with over 150 of the most popular Shopify apps, themes, and creative agencies.</p>
+        <div class="logo-imgs">
+            <img class="img-fluid" src="./assets/images/bold.png">
+            <img class="img-fluid" src="./assets/images/pxu.png">
+            <img class="img-fluid" src="./assets/images/recharge.png">
+            <img class="img-fluid" src="./assets/images/archetype.png">
+            <img class="img-fluid" src="./assets/images/referral.png">
+            <img class="img-fluid" src="./assets/images/privy.png">
+            <img class="img-fluid" src="./assets/images/shogun.png">
+            <img class="img-fluid" src="./assets/images/oots.png">
+            <img class="img-fluid" src="./assets/images/pushowl.png">
+            <img class="img-fluid" src="./assets/images/brex.png">
+            <img class="img-fluid" src="./assets/images/nacelle.png">
+            <img class="img-fluid" src="./assets/images/troop.png">
         </div>
       </div>
-      <div class="story-section-outer pricingPage-story-section-outer">
-        <div class="tabs-1">
-          <ul id="tabs-nav-1">
-            <li><a href="#tab-1"><img src="./assets/images/logo-toggle-orangewood.png" /></a></li>
-            <li><a href="#tab-2"><img src="./assets/images/logo-toggle-boll.png" /></a></li>
-            <li><a href="#tab-3"><img src="./assets/images/branch.png" /></a></li>
-            <li><a href="#tab-4"><img src="./assets/images/ogee.png" /></a></li>
-          </ul> 
-          <div id="tabs-content-1">
-            <div id="tab-1" class="tab-content-1">
-              <div class="left-box">
-                <h1>How it worked<br>
-                  for Alex<img src="./assets/images/story-icon-ogee.png" /><br>
-                  at<img src="./assets/images/main-icon-orangewood.png" />Ogee
-                  <img src="./assets/images/end-arrow-right.png" />
-                </h1>
-                <div class="footer-txt">
-                  <p>Amazing work as always. Super great bundle pages built, with excellent UX and high conversion rate."</p>
-                  <span>ALEX, CO-FOUNDER, OGEE BEAUTY</span>
-                </div>
-              </div>
-              <div class="right-box">
-                <p>
-                  <img src="./assets/images/story-icon-ogee.png" />
-                  Alex was ready to migrate their site to Shopify
-                </p>
-                <div class="story-time-line-step-between"></div>
-                <p>
-                  We matched him to Rebecca
-                  <img src="./assets/images/story-icon-ogy.png" />
-                </p>
-                <div class="story-time-line-step-between"></div>
-                <p>
-                  They’ve done 38 projects together since then
-                </p>
-                <div class="story-time-line-step-between"></div>
-                <p>
-                  <img src="./assets/images/main-icon-ogee.png" />
-                  Helping them launch site updates twice as fast
-                </p>
-              </div>
-            </div>
-            <div id="tab-2" class="tab-content-1">
-              <div class="left-box">
-                <h1>How it worked<br>
-                  for Nick<img src="./assets/images/story-icon-shastri.png" /><br>
-                  at<img src="./assets/images/story-icon-higher.png" />Truff
-                  <img src="./assets/images/end-arrow-right.png" />
-                </h1>
-                <div class="footer-txt">
-                  <p>Great help and quick turnaround."</p>
-                  <span>NICK, CO-FOUNDER OF TRUFF HOT SAUCE</span>
-                </div>
-              </div>
-              <div class="right-box">
-                <p>
-                  <img src="./assets/images/story-icon-shastri.png" />
-                  Nick needed to create a new product page
-                </p>
-                <div class="story-time-line-step-between"></div>
-                <p>
-                  We matched him to Thomas
-                  <img src="./assets/images/story-icon-chiara.png" />
-                  in 8 hours.
-                </p>
-                <div class="story-time-line-step-between"></div>
-                <p>
-                  They’ve done 51 projects together over two years
-                </p>
-                <div class="story-time-line-step-between"></div>
-                <p>
-                  <img src="./assets/images/story-icon-higher.png" />
-                  Helping Truff scale up with incredible growth
-                </p>
-              </div>
-            </div>
-            <div id="tab-3" class="tab-content-1">
-              <div class="left-box">
-                <h1>How it worked<br>
-                  for Jo<img src="./assets/images/story-icon-siah.png" /><br>
-                  at<img src="./assets/images/story-icon-bedfolk.png" />Bedfolk
-                  <img src="./assets/images/end-arrow-right.png" />
-                </h1>
-                <div class="footer-txt">
-                  <p>We’ve worked with Satish a number of times and he is always very professional, efficient and does an excellent job. Highly recommend."</p>
-                  <span>JO, FOUNDER OF BEDFOLK</span>
-                </div>
-              </div>
-              <div class="right-box">
-                <p>
-                  <img src="./assets/images/story-icon-siah.png" />
-                  Jo wanted a color selector on the product page
-                </p>
-                <div class="story-time-line-step-between"></div>
-                <p>
-                  We matched her to Satish
-                  <img src="./assets/images/story-icon-leonardo.png" />
-                  in 3 hours.
-                </p>
-                <div class="story-time-line-step-between"></div>
-                <p>
-                  They’ve done 19 projects together since then
-                </p>
-                <div class="story-time-line-step-between"></div>
-                <p>
-                  <img src="./assets/images/story-icon-bedfolk.png" />
-                  Helping Bedfolk build a better customer experience
-                </p>
-              </div>
-            </div>
-            <div id="tab-4" class="tab-content-1">
-              <div class="left-box">
-                <h1>How it worked<br>
-                  for Sib<img src="./assets/images/story-icon-logan.png" /><br>
-                  at<img src="./assets/images/story-icon-aisle.png" />Branch
-                  <img src="./assets/images/end-arrow-right.png" />
-                </h1>
-                <div class="footer-txt">
-                  <p>Prompt, detailed, clear communication, and high quality work as usual. Thanks Chris!"</p>
-                  <span>SIB, CO-FOUNDER OF BRANCH FURNITURE</span>
-                </div>
-              </div>
-              <div class="right-box">
-                <p>
-                  <img src="./assets/images/story-icon-logan.png" />
-                  Sib wanted to add a currency selector to the site
-                </p>
-                <div class="story-time-line-step-between"></div>
-                <p>
-                  We matched him to Chris
-                  <img src="./assets/images/story-icon-ogy.png" />
-                  in under an hour.
-                </p>
-                <div class="story-time-line-step-between"></div>
-                <p>
-                  They’ve done 16 projects together since then
-                </p>
-                <div class="story-time-line-step-between"></div>
-                <p>
-                  <img src="./assets/images/story-icon-aisle.png" />
-                  Helping them launch site updates twice as fast.
-                </p>
-              </div>
-            </div>
-          </div> 
-        </div> 
-      </div>
-      <div class="review-section-outer pricingPage-review-section-outer">
-        <div class="header-txt">
-          <h1>Don’t just take our</h1>
-          <h2>word for it.</h2>
-          <div class="arrow"></div>
-        </div>
-        <div class="review-x-slider review-x-slider-row">
-          <div class="card-block">
-            <img class="top-img img-fluid card-img" src="./assets/images/bg-topper-rareform.png">
-            <a class="js-fillcolor">
-              <img class="img-fluid card-img" src="./assets/images/bg-full-rareform.png">
-            </a>
-          </div>
-          <div class="card-block">
-            <img class="top-img img-fluid card-img" src="./assets/images/bg-topper-fempower.png">
-            <a class="js-fillcolor">
-              <img class="img-fluid card-img" src="./assets/images/bg-full-fempower.png">
-            </a>
-          </div>
-          <div class="card-block">
-            <img class="top-img img-fluid card-img" src="./assets/images/bg-topper-lily.png">
-            <a class="js-fillcolor">
-              <img class="img-fluid card-img" src="./assets/images/bg-full-lily.png">
-            </a>
-          </div>
-          <div class="card-block">
-            <img class="top-img img-fluid card-img" src="./assets/images/bg-topper-rigby.png">
-            <a class="js-fillcolor">
-              <img class="img-fluid card-img" src="./assets/images/bg-full-rigby.png">
-            </a>
-          </div>
-          <div class="card-block">
-            <img class="top-img img-fluid card-img" src="./assets/images/bg-topper-wanger.png">
-            <a class="js-fillcolor">
-              <img class="img-fluid card-img" src="./assets/images/bg-full-wanger.png">
-            </a>
-          </div>
-        </div>
-        <div class="review-y-slider review-y-slider-row">
-          <div class="card-block">
-            <a class="js-fillcolor">
-              <img class="brand-logo img-fluid card-img" src="./assets/images/brand-logo-rareform.png">
-              <p>Amazing communication and was fast to respond and timelines were kept and or beat which was perfect and important!”</p>
-              <div class="txt-with-img">
-                <img class="img-fluid card-img" src="./assets/images/story-icon-shastri.png">
-                <div class="text">
-                  <h3>ALEC AVEDISSIAN</h3>
-                  <h4>CEO, RAREFORM</h4>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="card-block">
-            <a class="js-fillcolor">
-              <img class="brand-logo img-fluid card-img" src="./assets/images/brand-logo-wanger.png">
-              <p>Have used Mark multiple times and will continue to use him. He is absolutely epic.”</p>
-              <div class="txt-with-img">
-                <img class="img-fluid card-img" src="./assets/images/story-icon-chiara.png">
-                <div class="text">
-                  <h3>THOMAS WALKER</h3>
-                  <h4>CO-FOUNDER, METTA</h4>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="card-block">
-            <a class="js-fillcolor">
-              <img class="brand-logo img-fluid card-img" src="./assets/images/brand-logo-rigby.png">
-              <p>Siah and her team were extremely patient and attentive to all of our needs and feedback. From beginning to end, we felt constantly supported and knew that we were in good hands.”</p>
-              <div class="txt-with-img">
-                <img class="img-fluid card-img" src="./assets/images/story-icon-leonardo.png">
-                <div class="text">
-                  <h3>CHRISTINA BASIAS</h3>
-                  <h4>CO-FOUNDER, FEMPOWER BEAUTY</h4>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="card-block">
-            <a class="js-fillcolor">
-              <img class="brand-logo img-fluid card-img" src="./assets/images/brand-logo-lily.png">
-              <p>Luke was such a pleasure to work with over the last few weeks. Highly recommend. Thank you Storetasker for the high quality dev folks!”</p>
-              <div class="txt-with-img">
-                <img class="img-fluid card-img" src="./assets/images/story-icon-ogy.png">
-                <div class="text">
-                  <h3>RUSSELL MARKUS</h3>
-                  <h4>FOUNDER, LILY CBD</h4>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="card-block">
-            <a class="js-fillcolor">
-              <img class="brand-logo img-fluid card-img" src="./assets/images/brand-logo-ordinary.png">
-              <p>So quick and so helpful and totally understood what I needed and more!”</p>
-              <div class="txt-with-img">
-                <img class="img-fluid card-img" src="./assets/images/story-icon-ivan.png">
-                <div class="text">
-                  <h3>TRE HOPKINS</h3>
-                  <h4>CO-FOUNDER, ORDINARY HABIT</h4>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="lets-start-section-outer pricingPage-lets-start-section-outer">
+      <div class="lets-start-section-outer become-an-expertPage-lets-start-section-outer">
         <div class="wrapper">
           <div class="text">
-            <h1>Let's start your first project </h1>
+            <h1>Apply now to learn more</h1>
             <div class="lets-start-btns">
-              <p>The best Shopify brands deserve
-                the best Shopify developers.</p>
-              <a href="#" class="btn">Start a Project</a>
+              <p>The best Shopify Experts deserve
+                a platform built for them.</p>
+              <a href="#" class="btn">Apply Now</a>
             </div>
           </div>
         </div>
@@ -859,7 +848,7 @@
         <div class="container">
           <div class="row footer-menu">
             <div class="column-left">
-            <a class="navbar-brand-logo" href="index.html"> 
+            <a class="navbar-brand-logo" href="/"> 
               <img
                       class="img-fluid logo"
                       src="./assets/images/logo-footer.png"
@@ -874,16 +863,16 @@
                   <a class="nav-link" href="#">how it works</a>
                   </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pricing.html">our experts</a>
+                  <a class="nav-link" href="pricing">our experts</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="integration.html">our customers</a>
+                  <a class="nav-link" href="integration">our customers</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="partners.html">pricing</a>
+                  <a class="nav-link" href="pricing">pricing</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="partners.html">support</a>
+                  <a class="nav-link" href="partners">support</a>
                 </li>
               </ul>
               <ul class="navbar-nav">
@@ -933,3 +922,4 @@
     </div>
   </body>
 </html>
+

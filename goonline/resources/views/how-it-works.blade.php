@@ -122,7 +122,7 @@
       <div class="header-container">
         <header class="header">
           <nav class="navbar navbar-expand-sm justify-content-between">
-            <a class="navbar-brand-logo" href="index.html"> 
+            <a class="navbar-brand-logo" href="/"> 
               <img
                       class="img-fluid logo"
                       src="./assets/images/logo.png"
@@ -131,21 +131,21 @@
             <div class="navbar-header only-desktop justify-content-between">
               <ul class="navbar-nav align-items-center">
                 <li class="nav-item">
-                 <a class="nav-link current" href="how-it-works.html">how it works</a>
+                 <a class="nav-link current" href="how-it-works">how it works</a>
                  </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="our-experts.html">our experts</a>
+                  <a class="nav-link" href="our-experts">our experts</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="our-customers.html">our customers</a>
+                  <a class="nav-link" href="our-customers">our customers</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pricing.html">pricing</a>
+                  <a class="nav-link" href="pricing">pricing</a>
                 </li>
               </ul>
               <ul class="navbar-nav align-items-center">
                 <li class="nav-item">
-                  <a class="nav-link" href="become-an-expert.html">become an expert</a>
+                  <a class="nav-link" href="become-an-expert">become an expert</a>
                 </li>
                 <li class="nav-item">
                   <p class="nav-link bordered-text">start a project</p>
@@ -162,21 +162,21 @@
             <div class="navbar-header only-mobile justify-content-between">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                 <a class="nav-link current" href="how-it-works.html">how it works</a>
+                 <a class="nav-link current" href="how-it-works">how it works</a>
                  </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="our-experts.html">our experts</a>
+                  <a class="nav-link" href="our-experts">our experts</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="our-customers.html">our customers</a>
+                  <a class="nav-link" href="our-customers">our customers</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pricing.html">pricing</a>
+                  <a class="nav-link" href="pricing">pricing</a>
                 </li>
               </ul>
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="become-an-expert.html">become an expert</a>
+                  <a class="nav-link" href="become-an-expert">become an expert</a>
                 </li>
                 <li class="nav-item">
                   <p class="nav-link">start a project</p>
@@ -723,7 +723,7 @@
         <div class="container">
           <div class="row footer-menu">
             <div class="column-left">
-            <a class="navbar-brand-logo" href="index.html"> 
+            <a class="navbar-brand-logo" href="/"> 
               <img
                       class="img-fluid logo"
                       src="./assets/images/logo-footer.png"
@@ -738,16 +738,16 @@
                   <a class="nav-link" href="#">how it works</a>
                   </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pricing.html">our experts</a>
+                  <a class="nav-link" href="pricing">our experts</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="integration.html">our customers</a>
+                  <a class="nav-link" href="integration">our customers</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="partners.html">pricing</a>
+                  <a class="nav-link" href="pricing">pricing</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="partners.html">support</a>
+                  <a class="nav-link" href="partners">support</a>
                 </li>
               </ul>
               <ul class="navbar-nav">
